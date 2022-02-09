@@ -11,7 +11,7 @@ function App() {
   //     console.log(data)
   //   })
   // }, [])
-  console.log(kidsEvents)
+  
 
   return (
     <div className="App">

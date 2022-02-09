@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "title" : "Balloon Making in the Park",
+        "date" : "Saturday, March 14th, 2022",
+        "isFree" : true,
+        "age" : [3,5]
+    },
+    {
+        "id" : 2,
+        "title" : "Example 2",
+        "date" : "Monday, March 17th, 2022",
+        "isFree" : true,
+        "age" : [8,11]
+    },
+    {
+        "id" : 3,
+        "title" : "Example 3",
+        "date" : "Tuesday, April 1st, 2022",
+        "isFree" : false,
+        "age" : [1,4]
+    },
+    {
+        "id" : 4,
+        "title" : "Example 4",
+        "date" : "Sunday, May 14th, 2022",
+        "isFree" : true,
+        "age" : [11,14]
+    }
+]

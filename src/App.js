@@ -1,9 +1,8 @@
-import { useEffect } from 'react';
-import './App.css';
-import kidsEvents from './data/kidsEvents.json';
+import { useEffect } from "react";
+import "./App.css";
+import kidsEvents from "./data/kidsEvents.json";
 
 function App() {
-
   // useEffect(() => {
   //   fetch('')
   //   .then(response => response.json())
@@ -11,12 +10,15 @@ function App() {
   //     console.log(data)
   //   })
   // }, [])
-  
 
   return (
     <div className="App">
       {kidsEvents.map((event) => {
-        return (<div> {event.title} </div>)
+        return <div> {event.title} 
+                      {event.date} 
+                      {event.location}
+                      {event.isFree}
+              </div>;
       })}
     </div>
   );

@@ -15,12 +15,12 @@ body {
     overflow-y: scroll;
     font-family: 'Raleway', sans-serif;
 
-    // &__profileImage {
-    //     border: 1px solid green;
-    //     border-radius: 50px;
-    //     height: 100px;
-    //     width: 100px;
-    // }
+    &__profileImage {
+        border: 1px solid green;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
      &__eventsInfo {
         margin-left: 40px;
     }

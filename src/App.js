@@ -27,7 +27,7 @@ function App() {
         {kidsEvents.map((event) => {
           return (
               <div className="eventsCard__eventsInfo" key={event.id}>
-              <div className="eventsCard__profileImage">{event.pic}</div>
+              <img src={event.pic} alt="image" srcset="image" />
               <div className="eventsCard__eventsTitle">{event.title}</div>
               <div className="eventsCard__eventsDate">{event.date}</div>
               <div className="eventsCard__eventsLocation">{event.location}</div>

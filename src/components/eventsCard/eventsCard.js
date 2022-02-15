@@ -5,14 +5,8 @@ import './EventsCard.scss'
 
 
 function EventsCard(eventsInfo) {
-  const {title, date, location, isFree} = eventsInfo
-
-    // const currentAge = (ages) => {
-    //   return ages.reduce((a, b) => a + Number(b), 0) / ages.length;
-    // }
-
-    // let age = currentAge(ages);
-
+  const {title, date, location, isFree, age} = eventsInfo
+  
 
 
     return (
@@ -24,7 +18,7 @@ function EventsCard(eventsInfo) {
           <div className='eventsCard__eventsDate' > {date} </div>
           <div className='eventsCard__eventsLocation'> {location} </div>
           <div className='eventsCard__eventsIsFree'> {isFree} </div>
-          {/* <div className='eventsCard__eventsAge' > {age} </div> */}
+          <div className='eventsCard__eventsAge' > {age} </div>
         </div>
       </div>
     );

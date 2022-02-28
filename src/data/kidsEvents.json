@@ -5,8 +5,7 @@
     "date": "Saturday, March 14th, 2022",
     "isFree": true,
     "age": [1, 5],
-    "location": "Tyron Park",
-    "pic": "https://pixabay.com/get/gf732c90ce9bf0c25372ad011d68c62112f0dc6407628160cc9a0f62f0b36f4c564f3917fe0adcde73b67c52da3fdc584f876a615aecab1225915de7146fd68ee924376627761f4d199eb9d3ef7559aa3_1920.jpg"
+    "location": "Tyron Park"
   },
   {
     "id": 2,

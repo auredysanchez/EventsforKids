@@ -1,0 +1,17 @@
+// @import './StyleUtils/_colors.scss';
+
+.searchBar {
+    &__input{
+        width: 97%;
+        margin: 1%;
+        padding: 7px 0%;
+        border-bottom: 1px #edeced solid;
+        font-family: "Raleway", sans-serif;
+        outline: none;
+
+        &:focus {
+            border-bottom: 1px gray solid;
+        }
+
+    }
+}

@@ -2,7 +2,7 @@
 import React from "react";
 import "./App.scss";
 import kidsEvents from "./data/kidsEvents.json";
-import questionimage from './assets/questionimage.png'
+// import questionimage from './assets/questionimage.png'
 // import searchBar from "./components/searchBar/SearchBar";
 import EventsList from "./components/eventsList/EventsList";
 

@@ -2,12 +2,29 @@ import React, { useState, useEffect } from "react";
 // import React from "react";
 // import questionimage from "../../assets/questionimage.png";
 import EventsCard from "../eventsCard/EventsCard";
-import kidsEvents from '../../data/kidsEvents.json'
+import kidsEvents from "../../data/kidsEvents.json";
+import SearchBar from "../searchBar/SearchBar";
 
 function EventsList() {
+  const [filteredkidsEvents, setfilteredkidsEvents] = useState([]);
+  const [search, setSearch] = useState("ro");
   // const [kidsEvents, setKidsEvents] = useState([]);
 
-      
+  useEffect(() => {
+    //filter the event by full name for any names that include the characters in the search
+
+    //case senssitive, math any part of the string
+
+    //treat them as one string
+    if (search) {
+      let listOfkidsEvents = kidsEvents.filter((event) => {
+        let fullEvent = `${event.title}`;
+      });
+    } else {
+      setfilteredkidsEvents([]);
+    }
+  }, [search]);
+
   //   useEffect(() => {
   //     fetch("src/data/kidsEvents.json")
   //       .then((response) => response.json())
@@ -19,25 +36,39 @@ function EventsList() {
 
   console.log(kidsEvents);
   return (
-      <div className="eventsCard">
-        {kidsEvents.map(event => {
+    <div className="eventsCard">
+      <SearchBar search={search} setSearch={setSearch} />
+      {search &&
+        filteredkidsEvents.map((event) => {
           return (
-            <EventsCard 
-            key={event.id}
-            title={event.title}
-            date={event.date}
-            location={event.location}
-            isFree={event.isFree}
-            age={event.age}
+            <EventsCard
+              key={event.id}
+              title={event.title}
+              date={event.date}
+              location={event.location}
+              isFree={event.isFree}
+              age={event.age}
             />
           );
         })}
-      </div>
+      {!search &&
+        kidsEvents.map((event) => {
+          return (
+            <EventsCard
+              key={event.id}
+              title={event.title}
+              date={event.date}
+              location={event.location}
+              isFree={event.isFree}
+              age={event.age}
+            />
+          );
+        })}
+    </div>
   );
 }
 
 export default EventsList;
-
 
 //  <div className="eventsCard__eventsInfo" key={event.id}>
 //    <img

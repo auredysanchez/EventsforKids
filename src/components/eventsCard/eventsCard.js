@@ -1,5 +1,5 @@
 import React from "react";
-import "./EventsCard.scss";
+// import "./EventsCard.scss";
 
 import questionimage from '../../assets/questionimage.png'
 

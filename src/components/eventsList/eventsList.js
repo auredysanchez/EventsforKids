@@ -6,22 +6,28 @@ import kidsEvents from "../../data/kidsEvents.json";
 import SearchBar from "../searchBar/SearchBar";
 
 function EventsList() {
-  const [filteredkidsEvents, setfilteredkidsEvents] = useState([]);
+  const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);
   const [search, setSearch] = useState("ro");
   // const [kidsEvents, setKidsEvents] = useState([]);
 
   useEffect(() => {
     //filter the event by full name for any names that include the characters in the search
 
-    //case senssitive, math any part of the string
+    //case insenssitive, math any part of the string
 
-    //treat them as one string
+    //treat the title as one string
     if (search) {
+      let lowerCaseSearch = search.toLocaleLowerCase();
       let listOfkidsEvents = kidsEvents.filter((event) => {
         let fullEvent = `${event.title}`;
+        fullEvent = fullEvent.toLocaleLowerCase();
+
+        return fullEvent.includes(lowerCaseSearch);
       });
+
+      setFilteredkidsEvents(listOfkidsEvents);
     } else {
-      setfilteredkidsEvents([]);
+      setFilteredkidsEvents([]);
     }
   }, [search]);
 

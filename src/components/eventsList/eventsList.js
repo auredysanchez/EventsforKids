@@ -7,8 +7,12 @@ import SearchBar from "../searchBar/SearchBar";
 
 function EventsList() {
   const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);
-  const [search, setSearch] = useState("ro");
+  const [search, setSearch] = useState("");
   // const [kidsEvents, setKidsEvents] = useState([]);
+
+
+
+
 
   useEffect(() => {
     //filter the event by full name for any names that include the characters in the search

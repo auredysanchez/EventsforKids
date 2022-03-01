@@ -1,10 +1,10 @@
 import React from "react";
 // import "./EventsCard.scss";
 
-import questionimage from '../../assets/questionimage.png'
+// import questionimage from '../../assets/questionimage.png'
 
 function EventsCard(eventsInfo) {
-  const {questionimage, title, date, location, isFree, age } = eventsInfo;
+  const {title, date, location, isFree, age } = eventsInfo;
   
   return (
     <div className="eventsCard__eventsInfo">

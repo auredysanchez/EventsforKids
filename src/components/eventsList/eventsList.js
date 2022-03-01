@@ -4,15 +4,13 @@ import React, { useState, useEffect } from "react";
 import EventsCard from "../eventsCard/EventsCard";
 import kidsEvents from "../../data/kidsEvents.json";
 import SearchBar from "../searchBar/SearchBar";
+import EmptyList from "../emptyList/EmptyList";
 
 function EventsList() {
+  // const [loading, setLoading] = useState(true);
   const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);
   const [search, setSearch] = useState("");
   // const [kidsEvents, setKidsEvents] = useState([]);
-
-
-
-
 
   useEffect(() => {
     //filter the event by full name for any names that include the characters in the search
@@ -40,7 +38,7 @@ function EventsList() {
   //       .then((response) => response.json())
   //       .then((data) => {
   //         setLoading(false);
-  //         setkidsEvents(data.event);
+  //         setkidsEvents();
   //       });
   //   }, []);
 
@@ -48,6 +46,8 @@ function EventsList() {
   return (
     <div className="eventsCard">
       <SearchBar search={search} setSearch={setSearch} />
+      {/* {loading && "Loading...."} */}
+
       {search &&
         filteredkidsEvents.map((event) => {
           return (
@@ -61,7 +61,11 @@ function EventsList() {
             />
           );
         })}
-      {!search &&
+
+      {!search && filteredkidsEvents.length === 0 && <EmptyList />}
+
+      {kidsEvents.length > 0 &&
+        !search &&
         kidsEvents.map((event) => {
           return (
             <EventsCard

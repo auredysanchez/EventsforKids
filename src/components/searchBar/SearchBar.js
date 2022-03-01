@@ -10,8 +10,8 @@ function SearchBar({search, setSearch}) {
     <div className="searchBar">
       <input 
       className="searchBar__input" 
-      placeholder="search" 
-      type="text" 
+      placeholder="Search" 
+    //   type="text" 
       value={search}
       onChange={(event)  => setSearch(event.target.value)}
       />

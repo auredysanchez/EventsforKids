@@ -8,7 +8,7 @@ body {
 .eventsCard {
   margin: 70px auto;
   max-width: 800px;
-  max-height: 80vh;
+  height: 80vh;
 //   box-shadow:  1px 1px 1px solid green;
   border-radius: 10px;
   background-color: white;
@@ -16,12 +16,12 @@ body {
   font-family: "Raleway", sans-serif;
   
 
-  &__profileImage {
-    border: 1px solid green;
-    border-radius: 50px;
-    height: 80px;
-    width: 80px;
-  }
+  // &__profileImage {
+  //   border: 1px solid green;
+  //   border-radius: 50px;
+  //   height: 80px;
+  //   width: 80px;
+  // }
   &__eventsInfo {
     margin-left: 20px;
     border-bottom-style: solid;

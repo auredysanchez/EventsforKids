@@ -7,7 +7,18 @@ import kidsEvents from "./data/kidsEvents.json";
 import EventsList from "./components/eventsList/EventsList";
 
 function App() {
-  // useEffect(() => {
+  
+
+  return (
+    <div className="App">
+      <EventsList kidsEvents={kidsEvents} />
+      {/* <img src="questionimage" alt="illustration" /> */}
+    </div>
+  );
+}
+
+export default App;
+// useEffect(() => {
   //     fetch('/Users/auredy/Desktop/events-for-kids/src/data/kidsEvents.json')
   //       .then((response) => response.json())
   //       .then(data => {
@@ -24,16 +35,6 @@ function App() {
   //   })
   // }, [])
   // console.log(kidsEvents)
-
-  return (
-    <div className="App">
-      <EventsList kidsEvents={kidsEvents} />
-      <img src="questionimage" alt="illustration" />
-    </div>
-  );
-}
-
-export default App;
 
      {
        /* <EventsList kidsEvents={kidsEvents} /> */

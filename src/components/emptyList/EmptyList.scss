@@ -1,0 +1,6 @@
+@import '../styleUtils/layouts.scss';
+
+
+.emptyList {
+  @include center-and-bold
+}

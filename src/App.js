@@ -12,6 +12,8 @@ function App() {
   return (
     <div className="App">
       <EventsList kidsEvents={kidsEvents} />
+      <Footer />
+      <Header />
       {/* <img src="questionimage" alt="illustration" /> */}
     </div>
   );

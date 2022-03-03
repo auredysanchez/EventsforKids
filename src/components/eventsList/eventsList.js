@@ -5,7 +5,7 @@ import EventsCard from "../eventsCard/EventsCard";
 import kidsEvents from "../../data/kidsEvents.json";
 import SearchBar from "../searchBar/SearchBar";
 import EmptyList from "../emptyList/EmptyList";
-import LoadingView from "../loadingView/LoadingView";
+// import LoadingView from "../loadingView/LoadingView";
 
 function EventsList() {
   // const [loading, setLoading] = useState(true);

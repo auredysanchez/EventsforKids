@@ -1,0 +1,7 @@
+@import '../styleUtils/layouts.scss';
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+
+.header {
+    @include header-and-footer-color;
+}

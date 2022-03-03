@@ -5,6 +5,8 @@ import kidsEvents from "./data/kidsEvents.json";
 // import questionimage from './assets/questionimage.png'
 // import searchBar from "./components/searchBar/SearchBar";
 import EventsList from "./components/eventsList/EventsList";
+// import Footer from './components/footer/Footer';
+import Header from "./components/header/Header";
 
 function App() {
   
@@ -12,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <EventsList kidsEvents={kidsEvents} />
-      <Footer />
-      <Header />
+      {/* <Header /> */}
       {/* <img src="questionimage" alt="illustration" /> */}
     </div>
   );

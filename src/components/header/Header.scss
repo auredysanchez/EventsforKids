@@ -1,7 +1,17 @@
-@import '../styleUtils/layouts.scss';
+@import "../styleUtils/layouts.scss";
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
-
 .header {
-    @include header-and-footer-color;
+  @include header-and-footer-color;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
 }

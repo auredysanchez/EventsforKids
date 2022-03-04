@@ -7,16 +7,18 @@ function SearchBar({search, setSearch}) {
   
 
     return (
-    <div className="searchBar">
-      <input 
-      className="searchBar__input" 
-      placeholder="Search" 
-    //   type="text" 
-      value={search}
-      onChange={(event)  => setSearch(event.target.value)}
-      />
-    </div>
-  );
+      <div className="searchBar">
+        <form action="">
+          <input
+            className="searchBar__input"
+            placeholder="Search"
+            name="Search"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+          />
+        </form>
+      </div>
+    );
 }
 
 export default SearchBar;

@@ -1,5 +1,6 @@
 // import { useEffect } from "react";
-import React from "react";
+// import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.scss";
 import kidsEvents from "./data/kidsEvents.json";
 // import questionimage from './assets/questionimage.png'
@@ -7,15 +8,16 @@ import kidsEvents from "./data/kidsEvents.json";
 import EventsList from "./components/eventsList/EventsList";
 // import Footer from './components/footer/Footer';
 import Header from "./components/header/Header";
+import NavBar from "./components/navBar/NavBar";
 
 function App() {
-  
+  const [search, setSearch] = useState("");
 
   return (
     <div className="App">
-      <Header />
-      <EventsList kidsEvents={kidsEvents} />
-
+      {/* <NavBar /> */}
+      <Header search={search} setSearch={setSearch} />
+      <EventsList kidsEvents={kidsEvents} search={search} />
       {/* <Header /> */}
       {/* <img src="questionimage" alt="illustration" /> */}
     </div>
@@ -24,28 +26,28 @@ function App() {
 
 export default App;
 // useEffect(() => {
-  //     fetch('/Users/auredy/Desktop/events-for-kids/src/data/kidsEvents.json')
-  //       .then((response) => response.json())
-  //       .then(data => {
-  //         setLoading(false)
-  //         setKidsEvents(data.kidsEvents)
-  //       });
-  // }, [])
+//     fetch('/Users/auredy/Desktop/events-for-kids/src/data/kidsEvents.json')
+//       .then((response) => response.json())
+//       .then(data => {
+//         setLoading(false)
+//         setKidsEvents(data.kidsEvents)
+//       });
+// }, [])
 
-  // useEffect(() => {
-  //   fetch('')
-  //   .then(response => response.json())
-  //   .then(data => {
-  //     console.log(data)
-  //   })
-  // }, [])
-  // console.log(kidsEvents)
+// useEffect(() => {
+//   fetch('')
+//   .then(response => response.json())
+//   .then(data => {
+//     console.log(data)
+//   })
+// }, [])
+// console.log(kidsEvents)
 
-     {
-       /* <EventsList kidsEvents={kidsEvents} /> */
-     }
-     {
-       /* <div className="eventsCard">
+{
+  /* <EventsList kidsEvents={kidsEvents} /> */
+}
+{
+  /* <div className="eventsCard">
         {kidsEvents.map((event) => {
           return (
             <div className="eventsCard__eventsInfo" key={event.id}>
@@ -63,4 +65,4 @@ export default App;
           );
         })}
       </div> */
-     }
+}

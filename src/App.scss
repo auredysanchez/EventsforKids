@@ -3,10 +3,12 @@
 
 body {
   background-color: #fff5ee;
+
 }
 
 .eventsCard {
   margin: 70px auto;
+  margin-top: 20px;
   max-width: 800px;
   height: 80vh;
 //   box-shadow:  1px 1px 1px solid green;
@@ -14,6 +16,7 @@ body {
   background-color: white;
   overflow-y: scroll;
   font-family: "Raleway", sans-serif;
+  
   
 
   // &__profileImage {
@@ -24,6 +27,7 @@ body {
   // }
   &__eventsInfo {
     margin-left: 20px;
+    margin-right: 20px;
     border-bottom-style: solid;
     border-color: gray;
     border-width: 2px;
@@ -49,3 +53,5 @@ body {
     padding-bottom: 20px;
   }
 }
+
+

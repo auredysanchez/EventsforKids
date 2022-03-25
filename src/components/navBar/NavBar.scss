@@ -1,0 +1,63 @@
+// .navBar {
+//      &__logo {
+//              color: aquamarine;
+//      }  
+     
+   
+        
+// }
+
+@media only screen and (max-width: 440px){
+  .navbar {
+    &__menuItems {
+      display: none;
+
+      &-active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        background-color: white;
+        border-bottom: 1px solid black;
+        text-align: center;
+
+        ul {
+          padding-left: 20px;
+
+          li {
+            display: block;
+            margin: 10px 0;
+          }
+        }
+      }
+
+    }
+    
+    &__collapsedMenuIcon {
+    display: black;
+    float: right;
+    font-size: 40px;
+  }
+  }
+}
+// width: 97%;
+//         margin: 1%;
+//         margin-left: 1.25rem;
+//         margin-right: 1.25rem;
+//         padding: 7px 0%;
+//         padding-left: 1.25rem;
+//         padding-right: -70.75rem;
+//         border-bottom: 0.5rem, #edeced solid;
+//         padding-bottom: 0.5rem;
+//         padding-top: 0.5rem;
+//         font-family: "Raleway", sans-serif;
+//         outline: 0;
+//         outline: none;
+//         border-radius: 9999px;
+//         border-color: #e2e8f0;
+//         line-height: inherit;
+//         overflow: visible;
+//         font-size: 100%;
+//         box-sizing: border-box;
+//         border-width: 2;
+//         border-style: solid;
+//         letter-spacing: 0.050rem;

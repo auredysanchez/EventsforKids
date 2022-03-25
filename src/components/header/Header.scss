@@ -1,5 +1,8 @@
 @import "../styleUtils/layouts.scss";
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+@import "../styleUtils/mobile.scss";
+
+// $mobile : 440px;
 
 .header {
   @include header-and-footer-color;
@@ -19,7 +22,6 @@
   position: sticky;
   top: 0;
   left: 0;
-}
 
 .navbar {
   padding: 10px 30px;
@@ -50,7 +52,7 @@
   &__collapsedMenuIcon {
     display: none;
 
-    @media only screen and (max-width: 440px) {
+    @media only screen and (max-width: $mobile) {
       .navbar {
         padding: 0;
 
@@ -85,4 +87,6 @@
       }
     }
   }
+}
+
 }

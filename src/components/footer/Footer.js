@@ -5,7 +5,7 @@ import './Footer.scss';
 function Footer(props) {
     return (
         <div className='footer' >
-            © 2022 Auredy Sanchez
+            © 2022 Auredy Sanchez 
         </div>
     );
 }

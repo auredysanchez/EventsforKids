@@ -1,6 +1,6 @@
 @import "../styleUtils/layouts.scss";
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
-// @import "../styleUtils/mobile.scss";
+@import "../styleUtils/mobile.scss";
 
 .header {
   @include header-and-footer-color;
@@ -19,6 +19,40 @@
   top: 0;
   left: 0;
 
+  @media only screen and (max-width: $mobile) {
+    .navbar {
+
+
+      &__menuItems {
+        display: none;
+
+        &-active {
+          display: block;
+          position: absolute;
+          top: 60px;
+          background-color: white;
+          border-bottom: 1px solid black;
+          text-align: center;
+
+          ul {
+            padding-left: 20px;
+
+            li {
+              display: block;
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+
+      &__collapsedMenuIcon {
+        display: black;
+        margin-right: 20px;
+        float: right;
+        font-size: 40px;
+      }
+    }
+  }
 }
 //   .navbar {
 //     &__logo {

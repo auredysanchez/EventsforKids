@@ -1,14 +1,12 @@
-// import { useEffect } from "react";
-// import React from "react";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.scss";
 import kidsEvents from "./data/kidsEvents.json";
 // import questionimage from './assets/questionimage.png'
 // import searchBar from "./components/searchBar/SearchBar";
 import EventsList from "./components/eventsList/EventsList";
-// import Footer from './components/footer/Footer';
 import Header from "./components/header/Header";
 import NavBar from "./components/navBar/NavBar";
+
 
 function App() {
   const [search, setSearch] = useState("");

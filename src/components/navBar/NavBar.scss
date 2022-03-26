@@ -1,44 +1,77 @@
-// .navBar {
-//      &__logo {
-//              color: aquamarine;
-//      }  
-     
-   
-        
-// }
+// @import "../styleUtils/mobile.scss";
+@import "../styleUtils/layouts.scss";
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
-@media only screen and (max-width: 440px){
-  .navbar {
-    &__menuItems {
-      display: none;
 
-      &-active {
-        display: block;
-        position: absolute;
-        top: 60px;
-        background-color: white;
-        border-bottom: 1px solid black;
-        text-align: center;
+.navbar {
+  font-family: "Raleway", sans-serif;
+   text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
 
-        ul {
-          padding-left: 20px;
+  &__logo {
+    float: left;
+    padding-top: 15px;
+    color: aquamarine;
+    margin-left: 100px;
+  }
 
-          li {
-            display: block;
-            margin: 10px 0;
-          }
+  &__menuItems {
+    float: left;
+    margin-left: 75px;
+    ul {
+      list-style-type: none;
+
+      li {
+        display: inline;
+        margin-left: 130px;
+        a {
+          text-decoration: none;
+          color: black;
         }
       }
-
     }
-    
-    &__collapsedMenuIcon {
-    display: black;
-    float: right;
-    font-size: 40px;
   }
+  &__collapsedMenuIcon {
+    display: none;
+
   }
+  //     @media only screen and (max-width: $mobile) {
+  //       .navbar {
+  //         padding: 0;
+  
+  //         &__menuItems {
+  //           display: none;
+  
+  //           &-active {
+  //             display: block;
+  //             position: absolute;
+  //             top: 60px;
+  //             background-color: white;
+  //             border-bottom: 1px solid black;
+  //             text-align: center;
+  
+  //             ul {
+  //               padding-left: 20px;
+  
+  //               li {
+  //                 display: block;
+  //                 margin: 10px 0;
+  //               }
+  //             }
+  //           }
+  //         }
+  
+  //         &__collapsedMenuIcon {
+  //           display: black;
+  //           margin-right: 20px;
+  //           float: right;
+  //           font-size: 40px;
+  //         }
+  //       }
+  //     }
 }
+
 // width: 97%;
 //         margin: 1%;
 //         margin-left: 1.25rem;

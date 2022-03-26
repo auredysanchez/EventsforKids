@@ -1,4 +1,3 @@
-// import React from "react";
 import React, { useState } from "react";
 import "./NavBar.scss";
 
@@ -9,7 +8,7 @@ function NavBar() {
 
   return (
     <div className="navbar">
-      <div className="navbar__logo">Logo</div>
+      {/* <div className="navbar__logo">Logo</div> */}
       <div
         className={active ? "navbar__menuItems-active" : "navbar__menuItems"}
       >

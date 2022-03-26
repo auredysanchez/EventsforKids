@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from '../navBar/NavBar';
 import SearchBar from '../searchBar/SearchBar'
-
 import './Header.scss'
+
+
+
 
 function Header({search, setSearch}) {
     return (

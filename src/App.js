@@ -5,7 +5,7 @@ import kidsEvents from "./data/kidsEvents.json";
 // import searchBar from "./components/searchBar/SearchBar";
 import EventsList from "./components/eventsList/EventsList";
 import Header from "./components/header/Header";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 // import NavBar from "./components/navBar/NavBar";
 
 

@@ -26,7 +26,7 @@ function NavBar() {
         className="navbar__collapsedMenuIcon"
         onClick={() => setActive(!active)}
       >
-          =
+          +
       </div>
     </div>
   );

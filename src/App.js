@@ -1,4 +1,4 @@
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./App.scss";
 import kidsEvents from "./data/kidsEvents.json";
@@ -7,7 +7,9 @@ import kidsEvents from "./data/kidsEvents.json";
 import EventsList from "./components/eventsList/EventsList";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import About from "./components/navBar/About";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import EventDetail from "./pages/EventDetail";
 // import NavBar from "./components/navBar/NavBar";
 
 function App() {
@@ -15,16 +17,24 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Router>
-        <Route> */}
-          {/* <NavBar /> */}
-          {/* <Route path="about" element={<About />} /> */}
-          <Header search={search} setSearch={setSearch} />
-          <EventsList kidsEvents={kidsEvents} search={search} />
-          {/* <Footer /> */}
-          {/* <img src="questionimage" alt="illustration" /> */}
-        {/* </Route>
-      </Router> */}
+      <Header search={search} setSearch={setSearch} />
+      <Router>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/event/:id">
+            <EventDetail />
+          </Route>
+          <Route path="/">
+            <EventsList kidsEvents={kidsEvents} search={search} />
+          </Route>
+        </Switch>
+      </Router>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import EventsCard from "../eventsCard/EventsCard";
 import kidsEvents from "../../data/kidsEvents.json";
 import EmptyList from "../emptyList/EmptyList";
+import { Link } from "react-router-dom";
 // import LoadingView from "../loadingView/LoadingView";
 
 function EventsList({search}) {
@@ -62,14 +63,16 @@ function EventsList({search}) {
         !search &&
         kidsEvents.map((event) => {
           return (
-            <EventsCard
-              key={event.id}
-              title={event.title}
-              date={event.date}
-              location={event.location}
-              isFree={event.isFree}
-              age={event.age}
-            />
+            <Link to={`/event/${event.id}`}>
+              <EventsCard
+                key={event.id}
+                title={event.title}
+                date={event.date}
+                location={event.location}
+                isFree={event.isFree}
+                age={event.age}
+              />
+            </Link>
           );
         })}
     </div>

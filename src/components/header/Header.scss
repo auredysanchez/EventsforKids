@@ -10,7 +10,7 @@
   padding-top: 1em;
   padding-bottom: 1em;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   border-width: 0;
@@ -19,7 +19,7 @@
   position: sticky;
   top: 0;
   left: 0;
-  margin-top: 0 auto;
+  // margin: 0 auto;
 }
 
 // @media only screen and (max-width: $mobile) {

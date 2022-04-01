@@ -1,14 +1,14 @@
 [
   {
-    "text": "Date",
-    "href": "/date"
+    "text": "Home",
+    "href": "/home"
   },
   {
-    "text": "Location",
-    "href": "location"
+    "text": "About",
+    "href": "/about"
   },
   {
-    "text": "Age",
-    "href": "/age"
+    "text": "Contact",
+    "href": "/contact"
   }
 ]

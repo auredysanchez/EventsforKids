@@ -24,7 +24,7 @@ function Header({search, setSearch}) {
         </svg>
         {/* <Logo /> */}
         <SearchBar search={search} setSearch={setSearch} />
-        <NavBar />
+        <NavBar  />
       </header>
     );
 }

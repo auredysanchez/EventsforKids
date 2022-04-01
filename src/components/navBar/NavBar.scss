@@ -8,16 +8,16 @@
   font-size: 16px;
   font-weight: 700;
 
-  &__logo {
-    float: left;
-    padding-top: 15px;
-    color: aquamarine;
-    margin-left: 100px;
-  }
+  // &__logo {
+  //   float: left;
+  //   padding-top: 15px;
+  //   color: aquamarine;
+  //   margin-left: 100px;
+  // }
 
   &__menuItems {
     float: left;
-    // margin-left: 75px;
+    margin-right: 20px;
     ul {
       list-style-type: none;
 
@@ -33,6 +33,43 @@
   }
   &__collapsedMenuIcon {
     display: none;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .navbar {
+    &__collapsedMenuIcon {
+      display: block;
+      // margin-right: 40px;
+      float: right;
+      font-size: 40px;
+    }
+    &__menuItems {
+      display: none;
+
+      &-active {
+        position: absolute;
+        top: 79px;
+        background-color: white;
+        border-bottom: 1px solid black;
+        text-align: center;
+        left: 0;
+        width: 100%;
+
+        ul {
+          padding-left: 20px;
+
+          li {
+            display: block;
+            margin: 10px 0;
+            a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+        }
+      }
+    }
   }
 }
 

@@ -1,3 +1,4 @@
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./App.scss";
 import kidsEvents from "./data/kidsEvents.json";
@@ -6,19 +7,24 @@ import kidsEvents from "./data/kidsEvents.json";
 import EventsList from "./components/eventsList/EventsList";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import About from "./components/navBar/About";
 // import NavBar from "./components/navBar/NavBar";
-
 
 function App() {
   const [search, setSearch] = useState("");
 
   return (
     <div className="App">
-      {/* <NavBar /> */}
-      <Header search={search} setSearch={setSearch} />
-      <EventsList kidsEvents={kidsEvents} search={search} />
-      {/* <Footer /> */}
-      {/* <img src="questionimage" alt="illustration" /> */}
+      {/* <Router>
+        <Route> */}
+          {/* <NavBar /> */}
+          {/* <Route path="about" element={<About />} /> */}
+          <Header search={search} setSearch={setSearch} />
+          <EventsList kidsEvents={kidsEvents} search={search} />
+          {/* <Footer /> */}
+          {/* <img src="questionimage" alt="illustration" /> */}
+        {/* </Route>
+      </Router> */}
     </div>
   );
 }

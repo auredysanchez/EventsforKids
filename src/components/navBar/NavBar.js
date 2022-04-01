@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { BrowserRouter as Link } from "react-router-dom";
 import "./NavBar.scss";
 
 import menuItemData from "../../data/menuItemData.json";
@@ -13,6 +14,9 @@ function NavBar() {
         className={active ? "navbar__menuItems-active" : "navbar__menuItems"}
       >
         <ul>
+          {/* <li>
+            <Link to="/about">About</Link>
+          </li> */}
           {menuItemData.map((menuItem, key) => {
             return (
               <li key={key}>
@@ -26,7 +30,7 @@ function NavBar() {
         className="navbar__collapsedMenuIcon"
         onClick={() => setActive(!active)}
       >
-          +
+        =
       </div>
     </div>
   );

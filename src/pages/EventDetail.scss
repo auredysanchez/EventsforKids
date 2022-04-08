@@ -1,0 +1,21 @@
+@import "../../src/components/styleUtils/mobile";
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+.eventDetails {
+
+
+    &__eventsLink {
+
+        a,
+        a:hover,
+        a:focus,
+        a:focus {
+    
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+// .nav-

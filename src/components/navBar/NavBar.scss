@@ -14,19 +14,30 @@
   //   color: aquamarine;
   //   margin-left: 100px;
   // }
+  // &__eventsLink {
+  //   a {
+  //     text-decoration: none;
+  //   }
+  // }
 
   &__menuItems {
     float: left;
     margin-right: 20px;
     ul {
       list-style-type: none;
+      text-decoration: none;
 
       li {
         display: inline;
         margin-left: 130px;
-        a {
+        text-decoration: none;
+        a,
+        a:hover,
+        a:focus,
+        a:focus{
           text-decoration: none;
-          color: black;
+          color: inherit;
+          
         }
       }
     }

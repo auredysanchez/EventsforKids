@@ -2,35 +2,30 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import EventsCard from "../components/eventsCard/EventsCard";
 import kidsEvents from "../data/kidsEvents.json";
+import "./EventDetail.scss";
 
-function EventDetail({filteredId}) {
-  const [filteredEventDetails, setFilteredEventDetails] = useState([]);
+function EventDetail() {
+  const [filteredEventDetails, setFilteredEventDetails] = useState({});
 
   let { id } = useParams();
   console.log(id);
 
   useEffect(() => {
-    if (filteredId) {
-      let filterEventId = kidsEvents.filter((findId) => {
-        let singleId = `${findId.id}`;
-        return singleId;
-      });
-      setFilteredEventDetails(filterEventId);
-    } else {
-      setFilteredEventDetails([]);
-    }
-  }, [filteredId]);
+    // if (filteredId) {
+    let filterEvent = kidsEvents.find((event) => {
+      return event.id == id;
+    });
+    setFilteredEventDetails(filterEvent);
+    console.log(filterEvent);
+    // } else {
+    //   setFilteredEventDetails([]);
+    // }
+  }, []);
 
   return (
-    <div>
-      {filteredEventDetails.map((findId) => {
-        return (
-          <Link to={`/event/${findId.id}`}>
-            <EventsCard key={findId.id} />
-          </Link>
-        );
-      })}
-      <h1>EventDetail {id}</h1>
+    <div className="eventDetails">
+      
+      <h1> {filteredEventDetails.title}</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident,
         a ipsa esse et cumque, aperiam consequatur impedit ratione harum

@@ -1,7 +1,7 @@
 @import "../styleUtils/layouts.scss";
 
 .footer {
-  // @include header-and-footer-color;
+  @include header-and-footer-color;
   font-family: "Raleway", sans-serif;
   text-align: center;
   font-weight: 700;

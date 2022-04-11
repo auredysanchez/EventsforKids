@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import EventsCard from "../components/eventsCard/EventsCard";
 import kidsEvents from "../data/kidsEvents.json";
-import "./EventDetail.scss";
+// import "./EventDetail.scss";
 
 function EventDetail() {
   const [filteredEventDetails, setFilteredEventDetails] = useState({});

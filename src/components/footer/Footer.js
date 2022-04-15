@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Footer.scss";
 
-function Footer(props) {
+const Footer = (props) => {
   return (
     <div className="footer">
       EventsKids

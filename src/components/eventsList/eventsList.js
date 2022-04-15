@@ -6,7 +6,7 @@ import EmptyList from "../emptyList/EmptyList";
 import { Link } from "react-router-dom";
 // import LoadingView from "../loadingView/LoadingView";
 
-function EventsList({search}) {
+const EventsList = ({search}) => {
   // const [loading, setLoading] = useState(true);
   const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);//hook - 
   // const [search, setSearch] = useState("");//hook

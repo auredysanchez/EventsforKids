@@ -4,7 +4,7 @@ import "./NavBar.scss";
 
 import menuItemData from "../../data/menuItemData.json";
 
-function NavBar() {
+const NavBar = () => {
   const [active, setActive] = useState(false);
 
   return (

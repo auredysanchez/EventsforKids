@@ -4,7 +4,7 @@ import EventsCard from "../components/eventsCard/EventsCard";
 import kidsEvents from "../data/kidsEvents.json";
 // import "./EventDetail.scss";
 
-function EventDetail() {
+const EventDetail = () => {
   const [filteredEventDetails, setFilteredEventDetails] = useState({});
 
   let { id } = useParams();

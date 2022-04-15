@@ -3,7 +3,7 @@ import "./EventsCard.scss";
 
 // import questionimage from '../../assets/questionimage.png'
 
-function EventsCard(eventsInfo) {
+const EventsCard = (eventsInfo) => {
   const { title, date, location, isFree, age } = eventsInfo;
 
   return (

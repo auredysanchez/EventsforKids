@@ -2,7 +2,7 @@ import React from "react";
 import './Contact.scss';
 
 
-function Contact() {
+const Contact = () => {
   return (
     <div className="contact">
       <h1>Contact</h1>

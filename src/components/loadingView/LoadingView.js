@@ -2,7 +2,7 @@ import React from 'react';
 
 import './LoadingView.scss'
 
-function LoadingView(props) {
+const LoadingView = (props) => {
     return (
         <div className='loadingView' >
             Loading....

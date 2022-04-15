@@ -6,7 +6,7 @@ import './Header.scss'
 
 
 
-function Header({search, setSearch}) {
+const Header = ({search, setSearch}) => {
     return (
       <header className="header">
         <svg

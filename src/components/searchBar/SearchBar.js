@@ -1,7 +1,7 @@
 import React from "react";
 import "./SearchBar.scss";
 
-function SearchBar({search, setSearch}) {
+const SearchBar = ({search, setSearch}) => {
   
   console.log(search)
   

@@ -2,7 +2,7 @@ import React from "react";
 import "./About.scss";
 // import menuItemData from "../../data/menuItemData.json";
 
-function About() {
+const About = () => {
   return (
     <div className="about">
       <h1>About</h1>

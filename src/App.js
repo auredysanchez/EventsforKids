@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 import EventDetail from "./pages/EventDetail";
 // import NavBar from "./components/navBar/NavBar";
 
-function App() {
+const App = () =>  {
   const [search, setSearch] = useState("");
 
   return (

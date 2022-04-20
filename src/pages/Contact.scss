@@ -1,0 +1,16 @@
+.contact {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10%;
+
+    a {
+        text-decoration: none;
+        color: black;
+    
+        &:visited {
+            color: purple;
+        }
+    }
+}

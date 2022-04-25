@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import EventsCard from "../components/eventsCard/EventsCard";
-import kidsEvents from "../data/kidsEvents.json";
-// import "./EventDetail.scss";
+// import EventsCard from "../../components/eventsCard/EventsCard";
+import kidsEvents from "../../data/kidsEvents.json";
+import "./EventDetail.scss";
 
 const EventDetail = () => {
   const [filteredEventDetails, setFilteredEventDetails] = useState({});
@@ -25,7 +25,7 @@ const EventDetail = () => {
   return (
     <div className="eventDetails">
       
-      <h1> {filteredEventDetails.title}</h1>
+      <h1 className="eventDetailsTitle"> {filteredEventDetails.title}</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident,
         a ipsa esse et cumque, aperiam consequatur impedit ratione harum

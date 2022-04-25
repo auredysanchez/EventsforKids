@@ -1,4 +1,7 @@
+@import '../../components/styleUtils/layouts';
+
 .contact {
+    @include center-and-bold;
     margin: 0 auto;
     max-width: 800px;
     padding: 10px;

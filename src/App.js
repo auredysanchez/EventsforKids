@@ -7,9 +7,9 @@ import kidsEvents from "./data/kidsEvents.json";
 import EventsList from "./components/eventsList/EventsList";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import EventDetail from "./pages/EventDetail";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import EventDetail from "./pages/eventDetail/EventDetail";
 // import NavBar from "./components/navBar/NavBar";
 
 const App = () =>  {

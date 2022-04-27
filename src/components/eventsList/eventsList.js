@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-// import questionimage from "../../assets/questionimage.png";
 import EventsCard from "../eventsCard/EventsCard";
 import kidsEvents from "../../data/kidsEvents.json";
 import EmptyList from "../emptyList/EmptyList";
 import { Link } from "react-router-dom";
-// import LoadingView from "../loadingView/LoadingView";
+
 
 const EventsList = ({search}) => {
   // const [loading, setLoading] = useState(true);

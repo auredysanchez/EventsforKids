@@ -1,18 +1,16 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.scss";
+
 import kidsEvents from "./data/kidsEvents.json";
-// import questionimage from './assets/questionimage.png'
-// import searchBar from "./components/searchBar/SearchBar";
 import EventsList from "./components/eventsList/EventsList";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import EventDetail from "./pages/eventDetail/EventDetail";
-// import NavBar from "./components/navBar/NavBar";
 
-const App = () =>  {
+const App = () => {
   const [search, setSearch] = useState("");
 
   return (
@@ -37,7 +35,7 @@ const App = () =>  {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
 // useEffect(() => {

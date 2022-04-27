@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.scss";
 
 import kidsEvents from "./data/kidsEvents.json";
-import EventsList from "./components/eventsList/EventsList";
+// import EventsList from "./components/eventsList/EventsList";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
@@ -27,9 +27,7 @@ const App = () => {
           <Route path="/event/:id">
             <EventDetail />
           </Route>
-          <Route path="/">
-            <EventsList kidsEvents={kidsEvents} search={search} />
-          </Route>
+        
         </Switch>
       </Router>
       <Footer />

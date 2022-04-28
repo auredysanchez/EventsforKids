@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 import EmptyList from "../emptyList/EmptyList";
 import EventCard from "../eventCard/EventCard";
 import kidsEvents from "../../data/kidsEvents.json";
@@ -27,8 +28,38 @@ const EventList = ({search}) => {
       
     return (
       <div className="eventCard">
+        {search &&
+          filteredkidsEvents.map((event) => {
+            return (
+              <EventCard
+                key={event.id}
+                title={event.title}
+                date={event.date}
+                location={event.location}
+                isFree={event.isFree}
+                age={event.age}
+              />
+            );
+          })}
+
         {search && filteredkidsEvents.length === 0 && <EmptyList />}
-        <EventCard />
+
+        {kidsEvents.length > 0 &&
+          !search &&
+          kidsEvents.map((event) => {
+            return (
+              <Link to={`/event/${event.id}`}>
+                <EventCard
+                  key={event.id}
+                  title={event.title}
+                  date={event.date}
+                  location={event.location}
+                  isFree={event.isFree}
+                  age={event.age}
+                />
+              </Link>
+            );
+          })}
       </div>
     );
 }

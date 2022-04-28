@@ -1,7 +1,8 @@
 import React from "react";
 
 
-const EventCard = () => {
+const EventCard = (eventsInfo) => {
+    const { title, date, location, isFree, age } = eventsInfo;
 
 
   return (

@@ -26,11 +26,11 @@ const EventList = ({search}) => {
 
       
     return (
-        <div>
-           <EmptyList />
-           <EventCard />
-        </div>
-    )
+      <div className="eventCard">
+        {search && filteredkidsEvents.length === 0 && <EmptyList />}
+        <EventCard />
+      </div>
+    );
 }
 
 export default EventList;

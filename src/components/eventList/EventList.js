@@ -24,7 +24,7 @@ const EventList = ({search}) => {
         }
       }, [search]);
 
-      console.log(kidsEvents);
+      
     return (
         <div>
             

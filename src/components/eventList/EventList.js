@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import EmptyList from "../emptyList/EmptyList";
+import EventsCard from "../eventsCard/EventsCard";
 import kidsEvents from "../../data/kidsEvents.json";
 
 
@@ -27,6 +28,7 @@ const EventList = ({search}) => {
     return (
         <div>
            <EmptyList />
+           <EventsCard />
         </div>
     )
 }

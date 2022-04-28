@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import EventsCard from "../eventsCard/EventsCard";
+import EventsCard from "../eventsCard_old/EventsCard_old";
 import kidsEvents from "../../data/kidsEvents.json";
 import EmptyList from "../emptyList/EmptyList";
 

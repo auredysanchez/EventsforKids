@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-
+import EmptyList from "../emptyList/EmptyList";
 import kidsEvents from "../../data/kidsEvents.json";
 
 
@@ -26,7 +26,7 @@ const EventList = ({search}) => {
       
     return (
         <div>
-            Hi
+           <EmptyList />
         </div>
     )
 }

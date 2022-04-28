@@ -1,0 +1,55 @@
+@import '../styleUtils/colors.scss';
+
+.eventCard {
+  margin: 70px auto;
+  max-width: 800px;
+  max-height: 80vh;
+//   box-shadow:  1px 1px 1px solid green;
+  border-radius: 10px;
+  background-color: white;
+  overflow-y: scroll;
+  // overscroll-behavior: contain;
+  font-family: "Raleway", sans-serif;
+
+  a {
+    text-decoration: none;
+    color: black;
+    &:visited {
+      color: purple;
+    }
+  }
+  
+
+  &__profileImage {
+    border: 1px solid green;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+  }
+  &__eventInfo {
+    margin-left: 20px;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: 2px;
+  }
+  &__eventTitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  &__eventDate,
+  &__eventLocation,
+  &__eventIsFree {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #757575;
+  }
+  &__eventAge {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+  }
+}

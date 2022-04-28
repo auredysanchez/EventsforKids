@@ -1,4 +1,5 @@
 import React from "react";
+import './EventCard.scss'
 
 
 const EventCard = (eventsInfo) => {

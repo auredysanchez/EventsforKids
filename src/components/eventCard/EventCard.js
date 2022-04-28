@@ -6,9 +6,13 @@ const EventCard = (eventsInfo) => {
 
 
   return (
-      <div>
-          Hello
-      </div>
+    <div className="eventCard__eventInfo">
+      <div className="eventCard__eventTitle">{title}</div>
+      <div className="eventCard__eventDate">{date}</div>
+      <div className="eventCard__eventLocation">{location}</div>
+      <div className="eventCard__eventIsFree">{isFree}</div>
+      <div className="eventCard__eventAge">{age}</div>
+    </div>
   );
 };
 

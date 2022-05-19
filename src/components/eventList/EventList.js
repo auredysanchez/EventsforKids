@@ -7,6 +7,7 @@ import EventCard from "../eventCard/EventCard";
 const EventList = ({ search }) => {
   const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);
   const [kidsEvents, setkidsEvents] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (search) {
@@ -16,11 +17,15 @@ const EventList = ({ search }) => {
         fullEvent = fullEvent.toLocaleLowerCase();
         return fullEvent.includes(lowerCaseSearch);
       });
+
+      console.log(listOfkidsEvents);
       setFilteredkidsEvents(listOfkidsEvents);
     } else {
       setFilteredkidsEvents([]);
     }
   }, [search]);
+
+  console.log(search);
 
   useEffect(() => {
     let url = "https://events-4-kids.herokuapp.com/events";
@@ -38,14 +43,16 @@ const EventList = ({ search }) => {
       {search &&
         filteredkidsEvents.map((event) => {
           return (
-            <EventCard
-              key={event.id}
-              title={event.title}
-              date={event.date}
-              location={event.location}
-              isFree={event.isFree}
-              age={event.age}
-            />
+            <Link to={`/event/${event.id}`}>
+              <EventCard
+                key={event.id}
+                title={event.title}
+                date={event.date}
+                location={event.location}
+                isFree={event.isFree}
+                age={event.age}
+              />
+            </Link>
           );
         })}
 

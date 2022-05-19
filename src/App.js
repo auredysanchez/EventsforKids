@@ -10,7 +10,6 @@ import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import EventDetail from "./pages/eventDetail/EventDetail";
-import Logo from "./components/logo/Logo";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -30,11 +29,7 @@ const App = () => {
             <EventDetail />
           </Route>
           <Route path="/">
-            <EventList />
-            {/* <EventsList kidsEvents={kidsEvents} search={search} /> */}
-          </Route>
-          <Route path="/">
-            <Logo />
+            <EventList search={search} />
           </Route>
         </Switch>
       </Router>

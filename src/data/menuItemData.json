@@ -10,5 +10,9 @@
   {
     "text": "Contact",
     "href": "/contact"
+  },
+  {
+    "text": "Add Event",
+    "href": "/addevent"
   }
 ]

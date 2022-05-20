@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import EmptyList from "../emptyList/EmptyList";
 import EventCard from "../eventCard/EventCard";
+import LoadingView from "../loadingView/LoadingView";
 // import kidsEvents from "../../data/kidsEvents.json";
 
 const EventList = ({ search }) => {
@@ -25,7 +26,7 @@ const EventList = ({ search }) => {
     }
   }, [search]);
 
-  console.log(search);
+  // console.log(search);
 
   useEffect(() => {
     let url = "https://events-4-kids.herokuapp.com/events";
@@ -35,11 +36,13 @@ const EventList = ({ search }) => {
       .then((data) => {
         setFilteredkidsEvents(data);
         setkidsEvents(data);
+        setLoading(false);
       });
   }, []);
 
   return (
     <div className="eventCard">
+      {loading && <LoadingView />}
       {search &&
         filteredkidsEvents.map((event) => {
           return (

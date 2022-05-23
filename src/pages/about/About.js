@@ -5,7 +5,14 @@ import "./About.scss";
 const About = () => {
   return (
     <div className="about">
-      <h1>About</h1>
+      <div>
+        <img
+          className="about__image"
+          src="https://i.pinimg.com/originals/37/14/ab/3714abc2314976105a2f5f5246d19fb5.jpg"
+          alt="momAndDaughterImg"
+        />
+      </div>
+      {/* <h1>About</h1> */}
       <p>
         I am a solutions-oriented full stack web developer, passionate about
         building products that solve real-world problems. My background in

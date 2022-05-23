@@ -10,6 +10,7 @@ import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import EventDetail from "./pages/eventDetail/EventDetail";
+import AddEvent from "./pages/addEvent/AddEvent";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -28,6 +29,9 @@ const App = () => {
           <Route path="/event/:id">
             <EventDetail />
           </Route>
+          <Route path="/addevent">
+            <AddEvent />
+          </Route>
           <Route path="/">
             <EventList search={search} />
           </Route>
@@ -39,44 +43,4 @@ const App = () => {
 };
 
 export default App;
-// useEffect(() => {
-//     fetch('/Users/auredy/Desktop/events-for-kids/src/data/kidsEvents.json')
-//       .then((response) => response.json())
-//       .then(data => {
-//         setLoading(false)
-//         setKidsEvents(data.kidsEvents)
-//       });
-// }, [])
 
-// useEffect(() => {
-//   fetch('')
-//   .then(response => response.json())
-//   .then(data => {
-//     console.log(data)
-//   })
-// }, [])
-// console.log(kidsEvents)
-
-{
-  /* <EventsList kidsEvents={kidsEvents} /> */
-}
-{
-  /* <div className="eventsCard">
-        {kidsEvents.map((event) => {
-          return (
-            <div className="eventsCard__eventsInfo" key={event.id}>
-              <img
-                className="eventsCard__profileImage"
-                src={questionimage}
-                alt="illustration"
-              />
-              <div className="eventsCard__eventsTitle">{event.title}</div>
-              <div className="eventsCard__eventsDate">{event.date}</div>
-              <div className="eventsCard__eventsLocation">{event.location}</div>
-              <div className="eventsCard__eventsIsFree">{event.isFree}</div>
-              <div className="eventsCard__eventsAge">{event.age}</div>
-            </div>
-          );
-        })}
-      </div> */
-}

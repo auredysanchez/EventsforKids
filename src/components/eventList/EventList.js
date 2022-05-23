@@ -11,6 +11,7 @@ const EventList = ({ search }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log("useEffect search", search, kidsEvents, filteredkidsEvents);
     if (search) {
       let lowerCaseSearch = search.toLocaleLowerCase();
       let listOfkidsEvents = kidsEvents.filter((event) => {
@@ -24,11 +25,12 @@ const EventList = ({ search }) => {
     } else {
       setFilteredkidsEvents([]);
     }
-  }, [search]);
+  }, [search, kidsEvents]);
 
   // console.log(search);
 
   useEffect(() => {
+    console.log("useEffect api", search, kidsEvents, filteredkidsEvents);
     let url = "https://events-4-kids.herokuapp.com/events";
 
     fetch(url)

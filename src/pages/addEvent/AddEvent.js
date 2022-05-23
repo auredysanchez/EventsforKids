@@ -18,7 +18,7 @@ console.log(date);
 console.log(location);
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <input type="text" onChange={(e) => setTitle(e.target.value)} />
       <input type="date" onChange={(e) => setDate(e.target.value)} />
       <input type="text" onChange={(e) => setLocation(e.target.value)} />

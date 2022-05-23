@@ -1,8 +1,8 @@
 @import '../../components/styleUtils/layouts';
 
 
-.about {
-    // @include center-and-bold;
+.form {
+    @include center-and-bold;
     text-align: center;
     margin: 0 auto;
     max-width: 800px;

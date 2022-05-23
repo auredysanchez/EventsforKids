@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./Logo.scss";
 
 const Logo = () => {

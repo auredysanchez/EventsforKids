@@ -4,7 +4,7 @@ import "./AddEvent.scss";
 // import menuItemData from "../../data/menuItemData.json";
 
 const AddEvent = () => {
-  const [formMessage, setFormMessage] = useState("");
+  const [formMessage, setFormMessage] = useState('');
   const [title, setTitle] = useState("");
   const [date, setDate] = useState("");
   const [location, setLocation] = useState("");
@@ -31,15 +31,22 @@ const AddEvent = () => {
       headers: { "Content-Type": "application/json" },
     };
 
+   
+
     fetch(url, requestOptions)
       .then((response) => response.json())
       .then((data) => {
+          const initialState = {title: '', date: '', location: '', startAge: '', endAge: ''};
+           const resetSate = () => {
+               setFormMessage(initialState)
+           };
         if (data.successs) {
-          let = "";
-          //reset all hooks to their defualts (''). clear form
-          // display datat.msg for user
-          //another hook form msg another thats an empty str
+            return initialState;
+            //reset all hooks to their defualts (''). clear form
+            // display data.msg for user
+            //another hook formMsg set as an empty str
         }
+        resetSate()
       });
   };
 

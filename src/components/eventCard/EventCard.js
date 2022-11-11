@@ -12,7 +12,7 @@ const EventCard = (eventsInfo) => {
       <div className="eventCard__eventDate">{date}</div>
       <div className="eventCard__eventLocation">{location}</div>
       <div className="eventCard__eventIsFree">{isFree}</div>
-      <div className="eventCard__eventAge">{age}</div>
+      <div className="eventCard__eventAge">Age: {age[0]}-{age[1]}</div>
     </div>
   );
 };

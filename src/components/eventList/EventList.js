@@ -31,7 +31,7 @@ const EventList = ({ search }) => {
 
   useEffect(() => {
     console.log("useEffect api", search, kidsEvents, filteredkidsEvents);
-    let url = "https://events-4-kids.herokuapp.com/events";
+    let url = "http://localhost:5001/events";
 
     fetch(url)
       .then((response) => response.json())

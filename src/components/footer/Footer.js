@@ -6,7 +6,7 @@ const Footer = (props) => {
   return (
     <div className="footer">
       EventsKids
-      <p className="footer__text">Copyright © 2022 Auredy Sanchez </p>
+      <p className="footer__text"> Copyright © 2022 Auredy Sanchez </p>
     </div>
   );
 }

@@ -3,6 +3,9 @@
 .footer {
   @include header-and-footer-color;
   font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
@@ -11,16 +14,16 @@
   height: 50px;
   // overscroll-behavior: contain;
 
-  position: absolute;
   // left: 0;
   width: 100%;
   margin-top: auto;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: auto;
+
   // padding: 1rem;
   
 
   &__text {
+    padding: 0px;
     font-size: 10px;
     text-decoration: underline;
   }

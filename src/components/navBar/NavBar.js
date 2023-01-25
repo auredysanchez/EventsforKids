@@ -7,6 +7,10 @@ import menuItemData from "../../data/menuItemData.json";
 const NavBar = () => {
   const [active, setActive] = useState(false);
 
+  // const toggle = (e) => {
+  //   setActive(e.target)
+  // }
+
   return (
     <div className="navbar">
       {/* <div className="navbar__logo">Logo</div> */}
@@ -26,6 +30,13 @@ const NavBar = () => {
           })}
         </ul>
       </div>
+      <div 
+        className="navbar__overlay"
+        style={{ display: active ? "block" : "none" }}
+        onClick={() => setActive(active)}
+      >
+  
+      </div>
       <div
         className="navbar__collapsedMenuIcon"
         onClick={() => setActive(!active)}
@@ -34,6 +45,6 @@ const NavBar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default NavBar;

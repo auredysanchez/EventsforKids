@@ -1,8 +1,13 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Events where parents can find appropiate activities
 
-## Available Scripts
+## How to download and run Events4Kids
+
+clone to desktop
+cd into it
+npm install
 
 In the project directory, you can run:
 

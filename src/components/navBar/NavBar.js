@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./NavBar.scss";
 
 import menuItemData from "../../data/menuItemData.json";
@@ -7,20 +7,15 @@ import menuItemData from "../../data/menuItemData.json";
 const NavBar = () => {
   const [active, setActive] = useState(false);
 
-  // const toggle = (e) => {
-  //   setActive(e.target)
-  // }
-
   return (
     <div className="navbar">
-      {/* <div className="navbar__logo">Logo</div> */}
       <div
         className={active ? "navbar__menuItems-active" : "navbar__menuItems"}
       >
         <ul>
           {/* <li>
             <Link to="/about">About</Link>
-          </li> */}
+          </li>  */}
           {menuItemData.map((menuItem, key) => {
             return (
               <li key={key}>
@@ -33,7 +28,7 @@ const NavBar = () => {
       <div 
         className="navbar__overlay"
         style={{ display: active ? "block" : "none" }}
-        onClick={() => setActive(active)}
+        onClick={() => setActive(false)}
       >
   
       </div>

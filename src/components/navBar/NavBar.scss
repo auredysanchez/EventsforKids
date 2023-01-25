@@ -29,6 +29,7 @@
       }
     }
   }
+
   &__collapsedMenuIcon {
     display: none;
   }
@@ -36,18 +37,19 @@
 
 @media only screen and (max-width: $mobile) {
   .navbar {
-    z-index: 10;
+    // z-index: 10;
     &__collapsedMenuIcon {
       display: block;
-      // margin-right: 40px;
       float: right;
       font-size: 40px;
     }
 
     &__overlay {
       background-color: rgba(3, 3, 3, 0.4);
+      margin-bottom: 200px;
       height: 100vh;
       width: 100%;
+      top: 50px;
       left: 0;
       position: fixed;
       z-index: -10;
@@ -126,7 +128,6 @@
 
   .footer {
     margin: auto;
-    // padding-bottom: 10px;
     padding-top: 10px;
   }
 }

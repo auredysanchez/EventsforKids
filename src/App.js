@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header search={search} setSearch={setSearch} />
+      <Header />
       <Router>
         <Switch>
           <Route path="/about">

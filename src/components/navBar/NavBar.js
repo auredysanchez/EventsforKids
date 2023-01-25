@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./NavBar.scss";
 
 import menuItemData from "../../data/menuItemData.json";

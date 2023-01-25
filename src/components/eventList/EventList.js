@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
+
 import { Link } from "react-router-dom";
+import SearchBar from "../searchBar/SearchBar";
 import EmptyList from "../emptyList/EmptyList";
 import EventCard from "../eventCard/EventCard";
 import LoadingView from "../loadingView/LoadingView";
 // import kidsEvents from "../../data/kidsEvents.json";
 
-const EventList = ({ search }) => {
+const EventList = () => {
   const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);
   const [kidsEvents, setkidsEvents] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     console.log("useEffect search", search, kidsEvents, filteredkidsEvents);
@@ -27,8 +30,6 @@ const EventList = ({ search }) => {
     }
   }, [search, kidsEvents]);
 
-  // console.log(search);
-
   useEffect(() => {
     console.log("useEffect api", search, kidsEvents, filteredkidsEvents);
     let url = "http://localhost:5001/events";
@@ -44,6 +45,7 @@ const EventList = ({ search }) => {
 
   return (
     <div className="eventCard">
+      <SearchBar search={search} setSearch={setSearch} />
       {loading && <LoadingView />}
       {search &&
         filteredkidsEvents.map((event) => {

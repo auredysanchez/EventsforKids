@@ -1,10 +1,11 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Logo.scss";
 
 const Logo = () => {
   return (
     <header>
+
       <a href="/">
         <img src="/familyGroup.png" className="logo" alt="logo" />
       </a>

@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Events4Kids](https://github.com/auredysanchez/EventsforKids).
 Events where parents can find appropiate activities
 
 ## How to download and run Events4Kids

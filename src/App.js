@@ -33,7 +33,7 @@ const App = () => {
             <AddEvent />
           </Route>
           <Route path="/">
-            <EventList search={search} />
+            <EventList search={search}  />
           </Route>
         </Switch>
       </Router>

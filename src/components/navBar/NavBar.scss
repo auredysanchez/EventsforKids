@@ -167,6 +167,12 @@
   .footer {
     margin: auto;
     padding-top: 10px;
+    // padding-bottom: 10px;
+    &__text {
+      margin-bottom: 10px;
+      padding: 0px;
+      font-size: 10px;
+    }
   }
 }
 

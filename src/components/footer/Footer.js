@@ -5,7 +5,7 @@ import "./Footer.scss";
 const Footer = (props) => {
   return (
     <div className="footer">
-      EventsKids
+      Events4Kids
       <p className="footer__text"> Copyright © 2022 Auredy Sanchez </p>
     </div>
   );

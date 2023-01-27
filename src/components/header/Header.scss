@@ -4,14 +4,7 @@
 
 .header {
   @include header-and-footer-color;
-  height: 50px;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 60px;
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
@@ -19,6 +12,15 @@
   position: sticky;
   top: 0;
   left: 0;
+
+  &__container {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
 
   &__logo {
     width: 50px;

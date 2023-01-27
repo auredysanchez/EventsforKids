@@ -7,9 +7,11 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header className="header">
-      <Logo />
-      {/* <SearchBar search={search} setSearch={setSearch} /> */}
-      <NavBar />
+      <div className="header__container">
+        <Logo />
+        {/* <SearchBar search={search} setSearch={setSearch} /> */}
+        <NavBar />
+      </div>
     </header>
   );
 };

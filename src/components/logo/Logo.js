@@ -4,13 +4,9 @@ import "./Logo.scss";
 
 const Logo = () => {
   return (
-    <header>
-
-      <a href="/">
-        <img src="/familyGroup.png" className="logo" alt="logo" />
-      </a>
-      {/* <img src="/familyGroup.png" className="logo" alt="logo" /> */}
-    </header>
+    <a href="/">
+      <img src="/familyGroup.png" className="logo" alt="logo" />
+    </a>
   );
 };
 

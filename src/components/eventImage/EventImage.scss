@@ -1,0 +1,10 @@
+@import "../styleUtils/layouts.scss";
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+@import "../styleUtils/mobile.scss";
+
+.eventImage {
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+}
+

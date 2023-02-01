@@ -1,6 +1,13 @@
 @import '../styleUtils/colors.scss';
 
+
 .eventCard {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+   grid-gap: 20px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
   margin: 70px auto;
   max-width: 800px;
   max-height: 80vh;
@@ -8,7 +15,8 @@
   background-color: white;
   overflow-y: scroll;
   font-family: "Raleway", sans-serif;
-
+  
+  
   a {
     text-decoration: none;
     color: black;
@@ -17,18 +25,31 @@
     }
   }
   
+  // &__eventImage {
+  // object-fit: cover;
+  // width: 100%;
+  // height: 100%;
+
+  // }
   &__profileImage {
     border: 1px solid green;
     border-radius: 50px;
     height: 80px;
     width: 80px;
+
   }
   &__eventInfo {
     margin-left: 20px;
     border-bottom-style: solid;
     border-color: gray;
     border-width: 2px;
+    //   flex: 1 0 500px;
+    // box-sizing: border-box;
+    // margin: 1rem .25em;
+    display: grid;
+    grid-template-rows: max-content 100px 1fr;
   }
+
   &__eventTitle {
     text-transform: uppercase;
     font-size: 20px;
@@ -39,11 +60,13 @@
   &__eventDate,
   &__eventLocation,
   &__eventIsFree {
+    // display: inline-block;
     padding-left: 20px;
     font-size: 20px;
     color: #757575;
   }
   &__eventAge {
+    // display: inline-block;
     padding-left: 20px;
     font-size: 20px;
     color: #757575;

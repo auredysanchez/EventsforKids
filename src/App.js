@@ -13,7 +13,7 @@ import EventDetail from "./pages/eventDetail/EventDetail";
 import AddEvent from "./pages/addEvent/AddEvent";
 
 const App = () => {
-  const [search, setSearch] = useState("");
+  const [search] = useState("");
 
   return (
     <div className="App">

@@ -13,7 +13,7 @@ const EventList = () => {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    console.log("useEffect search", search, kidsEvents, filteredkidsEvents);
+    // console.log("useEffect search", search, kidsEvents, filteredkidsEvents);
     if (search) {
       let lowerCaseSearch = search.toLocaleLowerCase();
       let listOfkidsEvents = kidsEvents.filter((event) => {
@@ -43,7 +43,7 @@ const EventList = () => {
   }, []);
 
   return (
-    <div className="eventCard">
+    <div className="events">
       {/* <SearchBar search={search} setSearch={setSearch} /> */}
       {loading && <LoadingView />}
       {search &&

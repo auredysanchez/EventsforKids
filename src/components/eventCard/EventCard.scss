@@ -1,81 +1,145 @@
-@import '../styleUtils/colors.scss';
+// @import '../styleUtils/colors.scss';
 
+.events{
+  background-color: #fff5ee;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+  grid-gap: 1vh;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 
-.eventCard {
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-   grid-gap: 20px;
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
-  margin: 70px auto;
-  max-width: 800px;
-  max-height: 80vh;
-  border-radius: 10px;
-  background-color: white;
-  overflow-y: scroll;
-  font-family: "Raleway", sans-serif;
-  
-  
-  a {
-    text-decoration: none;
-    color: black;
-    &:visited {
-      color: purple;
-    }
-  }
-  
-  // &__eventImage {
-  // object-fit: cover;
-  // width: 100%;
-  // height: 100%;
-
-  // }
-  &__profileImage {
-    border: 1px solid green;
-    border-radius: 50px;
-    height: 80px;
-    width: 80px;
-  }
-  
-  &__eventInfo {
-    margin-left: 20px;
-    border-bottom-style: solid;
-    border-color: gray;
-    border-width: 2px;
-    //   flex: 1 0 500px;
-    // box-sizing: border-box;
-    // margin: 1rem .25em;
-    display: grid;
-    grid-template-rows: max-content 100px 1fr;
-    text-overflow: ellipsis;
-
-    border-radius: 8px;
-    box-shadow: 0px 0px 8px #ccc;
-  }
-
-  &__eventTitle {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    text-overflow: ellipsis;
-  }
-  &__eventDate,
-  &__eventLocation,
-  &__eventIsFree {
-    // display: inline-block;
-    padding-left: 20px;
-    font-size: 20px;
-    color: #757575;
-    text-overflow: ellipsis;
-  }
-  &__eventAge {
-    // display: inline-block;
-    padding-left: 20px;
-    font-size: 20px;
-    color: #757575;
-    padding-bottom: 20px;
-  }
 }
+
+.ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+.eventCard{
+  margin: 25px 0px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  height: 300px;
+  box-shadow: 0px 0px 8px #ccc;
+  color: #253b56;
+   &:hover{
+    background-color: #f7a9b946;
+    box-shadow: 6px 6px 2px 1px rgba(83, 53, 83, 0.192);
+  }
+  
+    &__eventTitle{
+    padding-top: 30px;
+   
+  }
+   &__eventLocation{
+    padding-top: 30px;
+   }
+   &__eventDate{
+    padding-bottom: 30px;
+   }
+   &__eventAge{
+    padding-bottom: 10px;
+   }
+   
+}
+
+// .eventCard {
+//    display: grid;
+//    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+//    grid-gap: 20px;
+//   // display: flex;
+//   // flex-wrap: wrap;
+//   // justify-content: space-between;
+//   margin: 70px auto;
+//   max-width: 800px;
+//   max-height: 80vh;
+//   border-radius: 10px;
+//   background-color: purple;
+//   overflow-y: scroll;
+//   font-family: "Raleway", sans-serif;
+
+//   // box-shadow: 0px 0px 8px #ccc;
+//   // color: #253b56;
+//   // margin: 12px 0px;
+  
+  
+//   a {
+//     text-decoration: none;
+//     color: black;
+//     &:visited {
+//       color: purple;
+//     }
+//   }
+  
+//   // &__eventImage {
+//   // object-fit: cover;
+//   // width: 100%;
+//   // height: 100%;
+
+//   // }
+//   // &__profileImage {
+//   //   border: 1px solid green;
+//   //   border-radius: 50px;
+//   //   height: 80px;
+//   //   width: 80px;
+//   // }
+
+//   &__eventInfo {
+//     margin-left: 20px;
+//     border-bottom-style: solid;
+//     border-color: gray;
+//     border-width: 2px;
+//     //   flex: 1 0 500px;
+//     // box-sizing: border-box;
+//     // margin: 1rem .25em;
+//     display: grid;
+//     grid-template-rows: max-content 100px 1fr;
+//     text-overflow: ellipsis;
+
+//     border-radius: 8px;
+//     box-shadow: 0px 0px 8px #ccc;
+//   }
+
+//   &__eventTitle {
+//     text-transform: uppercase;
+//     font-size: 20px;
+//     font-weight: 700;
+//     padding-bottom: 10px;
+//     padding-top: 10px;
+//     text-overflow: ellipsis;
+//     overflow: hidden;
+//     white-space: nowrap;
+//     width: 100%;
+//     text-align: center;
+  
+//   }
+//   &__eventDate,
+//   &__eventLocation,
+//   &__eventIsFree {
+//     // display: inline-block;
+//     padding-left: 20px;
+//     font-size: 20px;
+//     color: #757575;
+//     text-overflow: ellipsis;
+//     overflow: hidden;
+//     white-space: nowrap;
+//     width: 90%;
+  
+    
+//   }
+//   &__eventAge {
+//     // display: inline-block;
+//     padding-left: 20px;
+//     font-size: 20px;
+//     color: #757575;
+//     padding-bottom: 20px;
+//   }
+// }

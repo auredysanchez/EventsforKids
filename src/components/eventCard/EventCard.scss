@@ -1,6 +1,6 @@
 // @import '../styleUtils/colors.scss';
 
-.events{
+.events {
   background-color: #fff5ee;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -11,18 +11,26 @@
   justify-content: center;
   justify-items: center;
 
+    a {
+    text-decoration: none;
+    color: black;
+    &:visited {
+      color: purple;
+    }
+  }
 }
 
-.ellipsis{
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 90%;
+  text-align: center;
 }
 
-
-.eventCard{
+.eventCard {
   margin: 25px 0px;
+  padding-bottom: 30px;
   width: 250px;
   background-color: white;
   border-radius: 10px;
@@ -30,25 +38,43 @@
   height: 300px;
   box-shadow: 0px 0px 8px #ccc;
   color: #253b56;
-   &:hover{
+  &:hover {
     background-color: #f7a9b946;
     box-shadow: 6px 6px 2px 1px rgba(83, 53, 83, 0.192);
   }
-  
-    &__eventTitle{
+
+  &__eventTitle {
+    display: block;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
     padding-top: 30px;
-   
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    // padding-left: 10px;
+    // padding-right: 10px;
   }
-   &__eventLocation{
+
+  &__eventDate {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  &__eventLocation {
+    display: block;
+    width: 80%;
+    margin: auto;
     padding-top: 30px;
-   }
-   &__eventDate{
-    padding-bottom: 30px;
-   }
-   &__eventAge{
-    padding-bottom: 10px;
-   }
-   
+  }
+  &__eventAge {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
 }
 
 // .eventCard {
@@ -69,8 +95,7 @@
 //   // box-shadow: 0px 0px 8px #ccc;
 //   // color: #253b56;
 //   // margin: 12px 0px;
-  
-  
+
 //   a {
 //     text-decoration: none;
 //     color: black;
@@ -78,7 +103,7 @@
 //       color: purple;
 //     }
 //   }
-  
+
 //   // &__eventImage {
 //   // object-fit: cover;
 //   // width: 100%;
@@ -119,7 +144,7 @@
 //     white-space: nowrap;
 //     width: 100%;
 //     text-align: center;
-  
+
 //   }
 //   &__eventDate,
 //   &__eventLocation,
@@ -132,8 +157,7 @@
 //     overflow: hidden;
 //     white-space: nowrap;
 //     width: 90%;
-  
-    
+
 //   }
 //   &__eventAge {
 //     // display: inline-block;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import SearchBar from "../searchBar/SearchBar";
+import SearchBar from "../searchBar/SearchBar";
 import EmptyList from "../emptyList/EmptyList";
 import EventCard from "../eventCard/EventCard";
 import LoadingView from "../loadingView/LoadingView";
@@ -44,7 +44,7 @@ const EventList = () => {
 
   return (
     <div className="events">
-      {/* <SearchBar search={search} setSearch={setSearch} /> */}
+      <SearchBar search={search} setSearch={setSearch} />
       {loading && <LoadingView />}
       {search &&
         filteredkidsEvents.map((event) => {

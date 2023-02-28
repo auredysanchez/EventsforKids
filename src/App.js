@@ -11,6 +11,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import EventDetail from "./pages/eventDetail/EventDetail";
 import AddEvent from "./pages/addEvent/AddEvent";
+import Home from "./pages/home/Home";
 
 const App = () => {
   const [search] = useState("");
@@ -20,6 +21,9 @@ const App = () => {
       <Header />
       <Router>
         <Switch>
+          {/* <Route path='/'>
+            <Home />
+          </Route> */}
           <Route path="/about">
             <About />
           </Route>

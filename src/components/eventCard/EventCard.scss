@@ -1,5 +1,11 @@
 // @import '../styleUtils/colors.scss';
 
+
+// .events__searchBar{
+//   display: flex;
+// }
+
+
 .events {
   background-color: #fff5ee;
   display: grid;
@@ -20,6 +26,8 @@
     }
   }
 }
+
+
 
 .ellipsis {
   text-overflow: ellipsis;

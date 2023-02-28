@@ -1,13 +1,16 @@
 import React from "react";
+// import SearchBar from "../searchBar/SearchBar";
+// import { useEffect, useState } from "react";
 import "./EventCard.scss";
 import EventImage from "../eventImage/EventImage";
 
 const EventCard = (eventsInfo) => {
   const { title, date, image, location, isFree, age } = eventsInfo;
 
+  //  const [search, setSearch] = useState("");
+
   return (
     // <div className="eventCard">
-
     <div className="eventCard">
       <div className="eventCard__eventTitle ellipsis"> {title} </div>
       <div className="eventCard__eventDate ellipsis"> {date} </div>

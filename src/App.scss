@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap");
-@import "./components/styleUtils/layouts.scss";
-@import "./components/styleUtils/mobile";
+@import "./styleUtils/layouts";
+@import "./styleUtils/mobile";
 
 body {
   background-color: #fff5ee;

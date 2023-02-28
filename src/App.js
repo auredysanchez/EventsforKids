@@ -11,7 +11,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import EventDetail from "./pages/eventDetail/EventDetail";
 import AddEvent from "./pages/addEvent/AddEvent";
-import Home from "./pages/home/Home";
+// import Home from "./pages/home/Home";
 
 const App = () => {
   const [search] = useState("");

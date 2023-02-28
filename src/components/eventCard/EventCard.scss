@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
+  // overflow-y: scroll;
 
     a {
     text-decoration: none;
@@ -24,13 +25,13 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
 .eventCard {
   margin: 25px 0px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   width: 250px;
   background-color: white;
   border-radius: 10px;
@@ -57,24 +58,26 @@
     // padding-right: 10px;
   }
 
-  &__eventDate {
+  &__eventDate, 
+  &__eventLocation,
+  &__eventAge {
     display: block;
     width: 80%;
     margin: auto;
     text-align: center;
   }
 
-  &__eventLocation {
-    display: block;
-    width: 80%;
-    margin: auto;
-    padding-top: 30px;
-  }
-  &__eventAge {
-    display: block;
-    width: 80%;
-    margin: auto;
-  }
+  // &__eventLocation {
+  //   display: block;
+  //   width: 80%;
+  //   margin: auto;
+   
+  // }
+  // &__eventAge {
+  //   display: block;
+  //   width: 80%;
+  //   margin: auto;
+  // }
 }
 
 // .eventCard {

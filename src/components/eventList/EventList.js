@@ -43,46 +43,46 @@ const EventList = () => {
       });
   }, []);
 
-
-
   return (
     <div className="events">
       <SearchBar search={search} setSearch={setSearch} />
+      <div className="events__container">
       {loading && <LoadingView />}
-      {search &&
-        filteredkidsEvents.map((event) => {
-          return (
-            <Link to={`/event/${event.id}`}>
-              <EventCard
-                key={event.id}
-                title={event.title}
-                date={event.date}
-                location={event.location}
-                isFree={event.isFree}
-                age={event.age}
-              />
-            </Link>
-          );
-        })}
+        {search &&
+          filteredkidsEvents.map((event) => {
+            return (
+              <Link to={`/event/${event.id}`}>
+                <EventCard
+                  key={event.id}
+                  title={event.title}
+                  date={event.date}
+                  location={event.location}
+                  isFree={event.isFree}
+                  age={event.age}
+                />
+              </Link>
+            );
+          })}
 
-      {search && filteredkidsEvents.length === 0 && <EmptyList />}
+        {search && filteredkidsEvents.length === 0 && <EmptyList />}
 
-      {kidsEvents.length > 0 &&
-        !search &&
-        kidsEvents.map((event) => {
-          return (
-            <Link to={`/event/${event.id}`}>
-              <EventCard
-                key={event.id}
-                title={event.title}
-                date={event.date}
-                location={event.location}
-                isFree={event.isFree}
-                age={event.age}
-              />
-            </Link>
-          );
-        })}
+        {kidsEvents.length > 0 &&
+          !search &&
+          kidsEvents.map((event) => {
+            return (
+              <Link to={`/event/${event.id}`}>
+                <EventCard
+                  key={event.id}
+                  title={event.title}
+                  date={event.date}
+                  location={event.location}
+                  isFree={event.isFree}
+                  age={event.age}
+                />
+              </Link>
+            );
+          })}
+      </div>
     </div>
   );
 };

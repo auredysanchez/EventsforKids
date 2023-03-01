@@ -1,10 +1,8 @@
 // @import '../styleUtils/colors.scss';
 
-
 // .events__searchBar{
 //   display: flex;
 // }
-
 
 .events {
   background-color: #fff5ee;
@@ -12,18 +10,22 @@
   // flex-direction: row;
   // flex-wrap: wrap;
   // gap: 10px;
-  display: grid;
-  grid-template-columns: repeat(4, 0fr);
+
   margin-top: 100px;
-  gap: 40px;
-  row-gap: 20px;
-  max-width: 100%;
-  align-items: center;
-  justify-content: center;
   justify-items: center;
   // overflow-y: scroll;
+  
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
+    align-items: center;
+  }
 
-    a {
+  a {
     text-decoration: none;
     color: black;
     &:visited {
@@ -31,8 +33,6 @@
     }
   }
 }
-
-
 
 .ellipsis {
   text-overflow: ellipsis;
@@ -43,7 +43,7 @@
 }
 
 .eventCard {
-  margin: 25px 0px;
+  // margin: 25px 0px;
   padding-bottom: 50px;
   width: 250px;
   background-color: white;
@@ -71,7 +71,7 @@
     // padding-right: 10px;
   }
 
-  &__eventDate, 
+  &__eventDate,
   &__eventLocation,
   &__eventAge {
     display: block;
@@ -84,7 +84,7 @@
   //   display: block;
   //   width: 80%;
   //   margin: auto;
-   
+
   // }
   // &__eventAge {
   //   display: block;

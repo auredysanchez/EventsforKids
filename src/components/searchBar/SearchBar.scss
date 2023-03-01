@@ -1,10 +1,12 @@
 // @import './StyleUtils/_colors.scss';
 
 .searchBar {
-  position: fixed;
-  top: 150px;
-  padding-right: 5px;
-  align-items: center;
+  // position: fixed;
+  // top: 150px;
+  width: 300px;
+  margin: 0 auto;
+  // padding-right: 5px;
+  // align-items: center;
   &__input {
     width: 97%;
     margin: 1%;

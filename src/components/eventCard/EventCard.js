@@ -3,7 +3,7 @@ import React from "react";
 // import { useEffect, useState } from "react";
 import "./EventCard.scss";
 import EventImage from "../eventImage/EventImage";
-import Grid from '@mui/material/Grid'
+// import Grid from '@mui/material/Grid'
 
 const EventCard = (eventsInfo) => {
   const { title, date, image, location, isFree, age } = eventsInfo;

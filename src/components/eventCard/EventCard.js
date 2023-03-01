@@ -14,18 +14,18 @@ const EventCard = (eventsInfo) => {
     // <div className="eventCard">
     <div className="eventCard">
       {/* <Grid container spacing={1}/> */}
-      <div className="eventCard__eventTitle ellipsis"> {title} </div>
-      <div className="eventCard__eventDate ellipsis"> {date} </div>
+      <div className="eventCard__eventTitle"> {title} </div>
+      <div className="eventCard__eventDate"> {date} </div>
       <div className="eventCard__eventImage">
         {" "}
         <EventImage image={image} />{" "}
       </div>
-      <div className="eventCard__eventLocation ellipsis">
+      <div className="eventCard__eventLocation">
         {" "}
         <span className="eventCard__locationSpan">Location:</span> {location}{" "}
       </div>
-      <div className="eventCard__eventIsFree ellipsis"> {isFree} </div>
-      <div className="eventCard__eventAge ellipsis">
+      <div className="eventCard__eventIsFree"> {isFree} </div>
+      <div className="eventCard__eventAge">
         {" "}
         Age: {age[0]} - {age[1]}{" "}
       </div>

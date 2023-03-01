@@ -71,13 +71,16 @@
   }
 
   &__eventDate {
-    // text-align: center;
+    // @include ellipsis;
+    text-align: center;
     // display: block;
     // width: 80%;
     // margin: auto;
   }
 
   &__eventLocation {
+    @include ellipsis;
+    margin: 10px;
     font-weight: 600;
     // display: block;
     // padding: 10px;
@@ -85,6 +88,7 @@
     // margin: auto;
   }
   &__eventAge {
+    margin: 10px;
     // margin: auto;
   }
 }

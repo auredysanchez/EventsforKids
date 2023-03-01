@@ -22,12 +22,14 @@ const EventCard = (eventsInfo) => {
       </div>
       <div className="eventCard__eventLocation">
         {" "}
-        <span className="eventCard__locationSpan">Location:</span> {location}{" "}
+        <span className="eventCard__eventLocation__color">Location:</span>{" "}
+        {location}{" "}
       </div>
       <div className="eventCard__eventIsFree"> {isFree} </div>
       <div className="eventCard__eventAge">
         {" "}
-        Age: {age[0]} - {age[1]}{" "}
+        <span className="eventCard__eventAge__color">Age:</span>{" "}
+        {age[0]} - {age[1]}{" "}
       </div>
     </div>
   );

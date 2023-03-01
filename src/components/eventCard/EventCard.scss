@@ -78,10 +78,14 @@
     // margin: auto;
   }
 
+    &__eventLocation__color{
+      color: purple;
+      font-weight: 600;
+    }
   &__eventLocation {
     @include ellipsis;
     margin: 10px;
-    font-weight: 600;
+  
     // display: block;
     // padding: 10px;
     // width: 80%;
@@ -91,6 +95,10 @@
     margin: 10px;
     // margin: auto;
   }
+    &__eventAge__color{
+      color: purple;
+      font-weight: 600;
+    }
 }
   
 

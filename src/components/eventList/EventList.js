@@ -4,13 +4,14 @@ import SearchBar from "../searchBar/SearchBar";
 import EmptyList from "../emptyList/EmptyList";
 import EventCard from "../eventCard/EventCard";
 import LoadingView from "../loadingView/LoadingView";
+import Grid from "@mui/material/Grid";
 // import kidsEvents from "../../data/kidsEvents.json";
 
 const EventList = () => {
   const [filteredkidsEvents, setFilteredkidsEvents] = useState([]);
   const [kidsEvents, setkidsEvents] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     // console.log("useEffect search", search, kidsEvents, filteredkidsEvents);
@@ -41,6 +42,8 @@ const EventList = () => {
         setLoading(false);
       });
   }, []);
+
+
 
   return (
     <div className="events">

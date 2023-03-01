@@ -3,6 +3,7 @@ import React from "react";
 // import { useEffect, useState } from "react";
 import "./EventCard.scss";
 import EventImage from "../eventImage/EventImage";
+import Grid from '@mui/material/Grid'
 
 const EventCard = (eventsInfo) => {
   const { title, date, image, location, isFree, age } = eventsInfo;
@@ -12,6 +13,7 @@ const EventCard = (eventsInfo) => {
   return (
     // <div className="eventCard">
     <div className="eventCard">
+      {/* <Grid container spacing={1}/> */}
       <div className="eventCard__eventTitle ellipsis"> {title} </div>
       <div className="eventCard__eventDate ellipsis"> {date} </div>
       <div className="eventCard__eventImage ellipsis">

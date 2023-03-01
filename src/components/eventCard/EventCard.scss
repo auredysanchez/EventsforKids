@@ -8,10 +8,15 @@
 
 .events {
   background-color: #fff5ee;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // gap: 10px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 0fr);
   margin-top: 100px;
-  grid-gap: 1vh;
+  gap: 40px;
+  row-gap: 20px;
   max-width: 100%;
   align-items: center;
   justify-content: center;

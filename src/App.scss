@@ -13,3 +13,10 @@ body {
   padding-bottom: 50px;
 }
 
+@media only screen and (max-width: $mobile) {
+   .App {
+    position: relative;
+    min-height: 97vh;
+    padding-bottom: 50px;
+  }
+}

@@ -1,19 +1,12 @@
 import React from "react";
-// import SearchBar from "../searchBar/SearchBar";
-// import { useEffect, useState } from "react";
 import "./EventCard.scss";
 import EventImage from "../eventImage/EventImage";
-// import Grid from '@mui/material/Grid'
 
 const EventCard = (eventsInfo) => {
   const { title, date, image, location, isFree, age } = eventsInfo;
 
-  //  const [search, setSearch] = useState("");
-
   return (
-    // <div className="eventCard">
     <div className="eventCard">
-      {/* <Grid container spacing={1}/> */}
       <div className="eventCard__eventTitle"> {title} </div>
       <div className="eventCard__eventDate"> {date} </div>
       <div className="eventCard__eventImage">

@@ -2,6 +2,7 @@
 
 
 .emptyList {
+  @include center-and-bold
   // margin: 0 auto;
   // font-weight: 600;
   // font-size: 25px;
@@ -14,7 +15,6 @@
   // font-size: 30px;
   // text-align: center;
   // width: 440%;
-  @include center-and-bold
 
 
 }

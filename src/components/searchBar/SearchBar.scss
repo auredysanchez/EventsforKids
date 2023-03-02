@@ -1,4 +1,4 @@
-// @import './StyleUtils/_colors.scss';
+@import '../../StyleUtils/mobile';
 
 .searchBar {
   // position: fixed;
@@ -41,9 +41,11 @@
     }
   }
 
-  @media only screen and (max-width: 440px) {
-    &__input {
-      width: -webkit-fill-available;
+  @media only screen and (max-width: $mobile) {
+    .searchBar{
+      &__input {
+        width: -webkit-fill-available;
+      }
     }
   }
 }

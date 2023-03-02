@@ -1,11 +1,15 @@
 @mixin center-and-bold {
-  text-align: center;
   font-weight: 600;
-  margin-top: 200px;
+  font-size: 25px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
 }
 
 @mixin header-and-footer-color {
   // background: #F7A9B9;
   background: rgb(153, 63, 152);
 }
-

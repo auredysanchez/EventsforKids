@@ -4,7 +4,7 @@ import './EmptyList.scss'
 
 
 
-const EmptyList = (props) => {
+const EmptyList = () => {
   return (
     <div className='emptyList' >
         No Results 

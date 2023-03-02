@@ -2,6 +2,8 @@ import React from 'react'
 
 import './EmptyList.scss'
 
+
+
 const EmptyList = (props) => {
   return (
     <div className='emptyList' >

@@ -41,7 +41,9 @@ const AddEvent = () => {
                setFormMessage(initialState)
            };
         if (data.successs) {
-            return initialState;
+            initialState = '';
+            return setFormMessage(initialState);
+            // return initialState;
             //reset all hooks to their defualts (''). clear form
             // display data.msg for user
             //another hook formMsg set as an empty str

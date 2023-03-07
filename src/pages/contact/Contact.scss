@@ -1,22 +1,29 @@
-@import '../../styleUtils/layouts';
+@import "../../styleUtils/layouts";
+@import "../../styleUtils/mobile";
 
 .contact {
-    @include center-and-bold;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 10px;
-    background-color: white;
-    margin-top: 10%;
+  // @include center-and-bold;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px;
+  background-color: white;
+  margin-top: 10%;
 
+  .contact:a {
+    text-decoration: none;
+    color: black;
 
-
-    .contact:a {
-        text-decoration: none;
-        color: black;
-    
-        &:visited {
-            color: purple;
-        }
+    &:visited {
+      color: purple;
     }
-}
+  }
 
+  @media screen and (max-width: $mobile) {
+    .contact {
+      margin: 0 auto;
+      margin-top: 50%;
+      padding: 0 12px;
+    }
+  }
+}

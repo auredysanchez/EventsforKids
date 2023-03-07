@@ -4,7 +4,6 @@ import SearchBar from "../searchBar/SearchBar";
 import EmptyList from "../emptyList/EmptyList";
 import EventCard from "../eventCard/EventCard";
 import LoadingView from "../loadingView/LoadingView";
-import Grid from "@mui/material/Grid";
 // import kidsEvents from "../../data/kidsEvents.json";
 
 const EventList = () => {

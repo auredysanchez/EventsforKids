@@ -41,12 +41,14 @@ const AddEvent = () => {
                setFormMessage(initialState)
            };
         if (data.successs) {
-            initialState = '';
-            return setFormMessage(initialState);
-            // return initialState;
+          setFormMessage('Event created successfully');
+          formMessage = '';
+          return initialState;
             //reset all hooks to their defualts (''). clear form
             // display data.msg for user
             //another hook formMsg set as an empty str
+        } else {
+          setFormMessage('Error Occured');
         }
         resetSate()
       });
@@ -116,8 +118,7 @@ const AddEvent = () => {
           />
         </label>
       </div>
-      <input type="submit" value="submit" />
-      {/* <input type="text" /> input for age. fix the age or make a function to do the math*/}
+      <button type="Submit"> Submit </button>
     </form>
   );
 };

@@ -4,20 +4,23 @@ import "./AddEvent.scss";
 // import menuItemData from "../../data/menuItemData.json";
 
 const AddEvent = () => {
-  const [formMessage, setFormMessage] = useState('');
+  const [formMessage, setFormMessage] = useState("");
   const [title, setTitle] = useState("");
   const [date, setDate] = useState("");
   const [location, setLocation] = useState("");
   const [startAge, setStartAge] = useState("");
   const [endAge, setEndAge] = useState("");
-  //   const [inputs, setInputs] = useState({});
+  // const [age, setAge] = useState("");
+  const [isFree, setIsFree] = useState(false);
 
-  //   const handleChange = (event) => {
-  //       const title = event.target.title;
-  //       const value = event.target.value;
-  //       setInputs(values => ({...values, [title]: value}))
-
-  //   };
+   const resetState = () => {
+     setTitle("");
+     setDate("");
+     setLocation("");
+     setStartAge("");
+     setEndAge("");
+     setIsFree(true);
+   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -27,7 +30,7 @@ const AddEvent = () => {
 
     let requestOptions = {
       method: "POST",
-      body: JSON.stringify({ startAge, endAge, title, date, location }),
+      body: JSON.stringify({ title, date, location, startAge, endAge, isFree}),
       headers: { "Content-Type": "application/json" },
     };
 
@@ -36,27 +39,30 @@ const AddEvent = () => {
     fetch(url, requestOptions)
       .then((response) => response.json())
       .then((data) => {
-          const initialState = {title: '', date: '', location: '', startAge: '', endAge: ''};
-           const resetSate = () => {
-               setFormMessage(initialState)
-           };
-        if (data.successs) {
+          const initialState = {title: '', date: '', location: '', startAge: '', endAge: '', isFree: true};
+          //  const resetState = () => {
+          //      setFormMessage(initialState)
+          //  };
+        if (data.success) {
           setFormMessage('Event created successfully');
-          formMessage = '';
-          return initialState;
+          resetState();
             //reset all hooks to their defualts (''). clear form
             // display data.msg for user
             //another hook formMsg set as an empty str
         } else {
           setFormMessage('Error Occured');
         }
-        resetSate()
       });
   };
 
   console.log(title);
   console.log(date);
   console.log(location);
+  console.log(startAge);
+  console.log(endAge);
+  console.log(isFree);
+  // console.log(age);
+
 
   return (
     <form className="form" onSubmit={handleSubmit}>
@@ -117,6 +123,26 @@ const AddEvent = () => {
             onChange={(e) => setEndAge(e.target.value)}
           />
         </label>
+        <label htmlFor="">
+          {" "}
+          Free:
+          <input
+            type="checkbox"
+            name="free"
+            value={isFree}
+            onChange={(e) => setIsFree(e.target.checked)}
+          />
+        </label>
+        {/* <label htmlFor="">
+          {" "}
+          Age:
+          <input
+            type="number"
+            name="age"
+            value={age}
+            onChange={(e) => setAge(e.target.value)}
+          />
+        </label> */}
       </div>
       <button type="Submit"> Submit </button>
     </form>

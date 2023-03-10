@@ -50,7 +50,7 @@ const EventList = () => {
         {search &&
           filteredkidsEvents.map((event) => {
             return (
-              <Link to={`/event/${event.id}`}>
+              <Link to={`/event/${event.id}`} key={event.id}>
                 <EventCard
                   key={event.id}
                   title={event.title}
@@ -69,7 +69,7 @@ const EventList = () => {
           !search &&
           kidsEvents.map((event) => {
             return (
-              <Link to={`/event/${event.id}`}>
+              <Link to={`/event/${event.id}`} key={event.id}>
                 <EventCard
                   key={event.id}
                   title={event.title}

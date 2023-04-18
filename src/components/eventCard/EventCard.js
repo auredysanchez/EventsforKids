@@ -13,7 +13,6 @@ const EventCard = (eventsInfo) => {
   return (
     // <div className="eventCard">
     <div className="eventCard">
-      {/* <Grid container spacing={1}/> */}
       <div className="eventCard__eventTitle"> {title} </div>
       <div className="eventCard__eventDate"> {date} </div>
       <div className="eventCard__eventImage">

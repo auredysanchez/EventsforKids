@@ -4,7 +4,7 @@ import "./EventImage.scss";
 
 const EventImage = () => {
   return (
-      <img src="/eventsimg.jpeg" className="eventImage" alt="image" />
+      <img src="/images/eventsimg.jpeg" className="eventImage" alt="image" />
  
   );
 };

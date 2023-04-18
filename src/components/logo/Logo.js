@@ -5,7 +5,7 @@ import "./Logo.scss";
 const Logo = () => {
   return (
     <a href="/">
-      <img src="/familyGroup.png" className="logo" alt="logo" />
+      <img src="/images/familyGroup.png" className="logo" alt="logo" />
     </a>
   );
 };

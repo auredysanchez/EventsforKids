@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -45,7 +46,8 @@
     "date": "Saturday, May 14th, 2022",
     "isFree": true,
     "age": [13, 17],
-    "location": "Bryant Park"
+    "location": "Bryant Park",
+    "description": "sdafjsdlkfjsdflsdjk"
   },
   {
     "id": 7,

@@ -39,10 +39,8 @@ const AddEvent = () => {
     fetch(url, requestOptions)
       .then((response) => response.json())
       .then((data) => {
-          const initialState = {title: '', date: '', location: '', startAge: '', endAge: '', isFree: true};
-          //  const resetState = () => {
-          //      setFormMessage(initialState)
-          //  };
+          // const initialState = {title: '', date: '', location: '', startAge: '', endAge: '', isFree: true};
+         
         if (data.success) {
           setFormMessage('Event created successfully');
           resetState();
@@ -130,7 +128,7 @@ const AddEvent = () => {
             type="checkbox"
             name="free"
             value={isFree}
-            onChange={(e) => setIsFree(e.target.checked)}
+            onChange={(e) => setIsFree(e.target.value)}
           />
         </label>
         {/* <label htmlFor="">

@@ -197,5 +197,185 @@
     "age": [3, 10],
     "location": "Harlem",
     "description": "Don your fanciest attire and join Daddy for a delightful Tea Party! This activity is a fun and elegant way for dads and daughters to spend quality time together while enjoying some delicious treats. You'll start by selecting your finest tea set and arranging it with all the necessary accouterments like sugar, cream, and fancy little sandwiches. With a variety of teas to choose from, you'll get to experiment and find your perfect cup. And of course, no tea party is complete without some sweet treats! You'll be able to decorate your own cupcakes or cookies and indulge in some scrumptious desserts. With soft music playing in the background, you'll be able to chat with your dad and enjoy some quality bonding time. So dress up, bring your imagination, and get ready to have a wonderful time at the Tea Party with Daddy!"
+  },
+  {
+    "id": 23,
+    "title": "Bounce and Play",
+    "date": "Saturday, September 10th, 2023",
+    "isFree": false,
+    "age": [4, 9],
+    "location": "BounceU - College Point",
+    "description": "Get ready to bounce and play at BounceU! This indoor play center is a perfect activity for kids and families to enjoy a day of fun and excitement. You'll start by jumping on the inflatable bounce houses and obstacle courses, each designed to challenge and entertain kids of all ages. With a variety of games and activities, there's never a dull moment at BounceU. You'll also have access to private party rooms, where you can celebrate birthdays or other special events. With friendly staff on hand to supervise and ensure everyone's safety, you can relax and enjoy the fun. So bring your energy, your enthusiasm, and your love for bouncing, and get ready to have a blast at BounceU!"
+  },
+  {
+    "id": 24,
+    "title": "Create Your Own Candy",
+    "date": "Sunday, October 2nd, 2023",
+    "isFree": false,
+    "age": [6, 12],
+    "location": "Dylan's Candy Bar - Upper East Side",
+    "description": "Step into the sweet world of candy making at Dylan's Candy Bar! This activity is a great way for kids and families to learn how to create their own delicious treats. You'll start by choosing your favorite candy flavors, colors, and toppings, and then learn how to mold, shape, and decorate your creations. With expert candy makers on hand to guide you, you'll discover new techniques and get inspiration for your own unique designs. Plus, you'll get to taste your creations along the way! Whether you're making lollipops, chocolate bars, or gummy candies, Dylan's Candy Bar is a fun and delicious way to spend an afternoon. So bring your sweet tooth, your creativity, and your love for candy, and get ready to make some sweet memories!"
+  },
+  {
+    "id": 25,
+    "title": "Explore the High Line",
+    "date": "Saturday, October 15th, 2023",
+    "isFree": true,
+    "age": [8, 14],
+    "location": "The High Line - Meatpacking District",
+    "description": "Take a stroll above the city streets on the High Line! This activity is a great way for kids and families to explore one of New York's most unique parks. You'll start at the Gansevoort Street entrance and make your way through the elevated park, enjoying the beautiful gardens, art installations, and stunning city views. With plenty of benches and seating areas, there's no rush to complete the entire walk, so take your time and enjoy the sights and sounds. Plus, with food vendors and restrooms available, you can make a day of it. Whether you're a first-time visitor or a seasoned High Line veteran, this activity is a must-do for anyone looking for a fun and relaxing outdoor adventure in the heart of the city!"
+  },
+  {
+    "id": 26,
+    "title": "Explore the Wildlife",
+    "date": "Saturday, May 13th, 2023",
+    "isFree": false,
+    "age": [3, 15],
+    "location": "Bronx Zoo",
+    "description": "Join us for a day of adventure as we explore the wildlife at Bronx Zoo! With over 265 acres of wildlife habitats, there's something for everyone to discover. Meet the lions, tigers, and bears, and watch them play in their natural habitats. Walk through the butterfly garden and be amazed by the colorful fluttering wings. Explore the Congo Gorilla Forest and see the amazing primates up close. Take a ride on the Wild Asia Monorail and see the elephants, rhinos, and other animals roam free. With interactive exhibits and exciting animal shows, the Bronx Zoo is a perfect activity for families of all ages. Get ready to be amazed and inspired by the wonders of the animal kingdom!"
+  },
+  {
+    "id": 27,
+    "title": "Solve Mysteries",
+    "date": "Sunday, June 4th, 2023",
+    "isFree": false,
+    "age": [5, 10],
+    "location": "New York Hall of Science",
+    "description": "Join us for a day of science and mystery at the New York Hall of Science! This activity is perfect for kids who love to solve puzzles and mysteries. You'll start by exploring the museum's many exhibits and galleries, each designed to inspire curiosity and creativity. With interactive exhibits and hands-on activities, you'll learn about science, technology, engineering, and math in a fun and engaging way. But that's not all! You'll also get to solve a mystery by following clues and using your wits to uncover the truth. With friendly educators on hand to guide you and answer your questions, you'll be sure to have a blast at the New York Hall of Science. So bring your curiosity, your creativity, and your problem-solving skills, and get ready to solve the mystery!"
+  },
+  {
+    "id": 28,
+    "title": "Make a Splash",
+    "date": "Saturday, July 15th, 2023",
+    "isFree": true,
+    "age": [2, 16],
+    "location": "Coney Island Beach",
+    "description": "Cool off on a hot summer day and make a splash at Coney Island Beach! This activity is perfect for families of all ages. With miles of sandy beach, a boardwalk full of games and rides, and a famous amusement park, Coney Island has something for everyone. Take a dip in the ocean, build a sandcastle, or enjoy a ride on the Ferris wheel. With plenty of food vendors and ice cream shops, you can enjoy a tasty treat while taking in the ocean breeze. Whether you're looking for adventure or just a relaxing day at the beach, Coney Island has it all. So grab your sunscreen, your beach towel, and your sense of adventure, and get ready to make a splash!"
+  },
+  {
+    "id": 29,
+    "title": "Discover Sea Creatures",
+    "date": "Saturday, June 10th, 2023",
+    "isFree": false,
+    "age": [4, 12],
+    "location": "New York Aquarium",
+    "description": "Explore the wonders of the ocean at the New York Aquarium! This activity is perfect for young marine enthusiasts who want to learn more about sea creatures and their habitats. You'll get up close and personal with sharks, sea turtles, penguins, and more as you walk through the aquarium's many exhibits. With knowledgeable staff on hand to answer your questions, you'll learn about the importance of conservation and the role we play in protecting our oceans. Don't miss the daily sea lion show, where these playful creatures perform acrobatics and show off their intelligence. So come dive into the deep blue and discover the magic of the ocean at the New York Aquarium!"
+  },
+  {
+    "id": 30,
+    "title": "Step into a Fairy Tale",
+    "date": "Sunday, July 23rd, 2023",
+    "isFree": true,
+    "age": [3, 10],
+    "location": "Central Park",
+    "description": "Experience the magic of fairy tales come to life at Central Park! This activity is perfect for young imaginations who love fantasy and adventure. You'll embark on a scavenger hunt through the park, searching for clues that will lead you to enchanted forests, secret gardens, and other mystical places. Along the way, you'll encounter characters from beloved fairy tales and folk stories, who will help you on your quest. Be sure to wear your favorite fairy tale costume, and bring your sense of wonder and awe. This activity is sure to spark your child's imagination and inspire a love of storytelling that will last a lifetime!"
+  },
+  {
+    "id": 31,
+    "title": "Dance in the Streets at the Coney Island Mermaid Parade",
+    "date": "Saturday, June 17th, 2023",
+    "isFree": true,
+    "age": [5, 14],
+    "location": "Coney Island",
+    "description": "Join the fun and festivities at the Coney Island Mermaid Parade! This activity is perfect for families who love music, costumes, and dancing. You'll be part of a colorful procession of mermaids, sea creatures, and other mythical beings as you make your way down the boardwalk. With live music, street performers, and plenty of photo ops, this parade is a one-of-a-kind experience that's not to be missed. Be sure to wear your most outrageous mermaid costume, and bring your best dance moves. This activity is sure to leave you with a smile on your face and a song in your heart!"
+  },
+  {
+    "id": 32,
+    "title": "Animal Adventure",
+    "date": "Saturday, June 24th, 2023",
+    "isFree": false,
+    "age": [3, 10],
+    "location": "Bronx Zoo",
+    "description": "Get ready for an animal adventure at the Bronx Zoo! This activity is perfect for kids and families who love animals and want to learn more about them. You'll start by exploring the zoo's many exhibits and habitats, each designed to showcase different species from around the world. From tigers and bears to penguins and monkeys, there's something for everyone at the Bronx Zoo. With knowledgeable zookeepers on hand to answer your questions and share fun facts, you'll learn about animal behavior, habitats, and conservation efforts. You can even participate in interactive activities like feeding the animals or watching a sea lion show. So put on your walking shoes, grab your sunscreen, and get ready for an adventure you'll never forget at the Bronx Zoo!"
+  },
+  {
+    "id": 33,
+    "title": "Sail Around Manhattan",
+    "date": "Sunday, July 9th, 2023",
+    "isFree": false,
+    "age": [5, 14],
+    "location": "Hornblower Cruises & Events",
+    "description": "Take to the water and experience the beauty of Manhattan from a whole new perspective on this sailing adventure! This activity is perfect for kids and families who love the water and want to see some of the city's most iconic landmarks. You'll start by boarding a comfortable sailboat at Pier 15 and setting sail on the East River. As you cruise around Manhattan, you'll see sights like the Brooklyn Bridge, Statue of Liberty, and One World Trade Center. With experienced sailors on board to guide you and answer your questions, you'll learn about the history and architecture of these famous landmarks. You can even participate in sailing the boat or sit back and enjoy the views. So come aboard, relax, and let the wind take you on a memorable journey around Manhattan!"
+  },
+  {
+    "id": 34,
+    "title": "Science Fun",
+    "date": "Saturday, August 5th, 2023",
+    "isFree": false,
+    "age": [6, 12],
+    "location": "New York Hall of Science",
+    "description": "Get ready for a day of science fun at the New York Hall of Science! This activity is perfect for kids and families who love to learn and explore the world around them. You'll start by checking out the museum's many exhibits and interactive displays, each designed to showcase different areas of science. From outer space to robotics, there's something for everyone at the New York Hall of Science. With friendly educators on hand to guide you and answer your questions, you'll learn about scientific concepts like physics, chemistry, and biology in a fun and engaging way. You can even participate in hands-on activities like building a robot or launching a rocket. So put on your lab coat, grab your safety goggles, and get ready to have a blast at the New York Hall of Science!"
+  },
+  {
+    "id": 35,
+    "title": "Superhero Scavenger Hunt",
+    "date": "Saturday, June 10th, 2023",
+    "isFree": false,
+    "age": [5, 12],
+    "location": "Central Park",
+    "description": "Get ready to save the city on this Superhero Scavenger Hunt in Central Park! Assemble your team of superheroes and work together to solve clues and complete challenges as you search for the missing pieces of a powerful energy source that could fall into the wrong hands. With hidden villains lurking around every corner, you'll need to use your powers of deduction and your super strength to overcome obstacles and complete your mission. Along the way, you'll learn about the park's history, discover its hidden gems, and have a blast exploring the great outdoors. So put on your cape, grab your mask, and get ready for an adventure that's out of this world!"
+  },
+  {
+    "id": 36,
+    "title": "Dino-Mite Adventure",
+    "date": "Sunday, July 23rd, 2023",
+    "isFree": false,
+    "age": [3, 8],
+    "location": "American Museum of Natural History",
+    "description": "Travel back in time to the land of the dinosaurs at the American Museum of Natural History! Explore the museum's legendary dinosaur exhibits and embark on a dino-mite adventure through the prehistoric past. With hands-on activities and interactive exhibits, you'll learn about the different types of dinosaurs and the environments in which they lived. You'll also get to see real fossils and meet some of the museum's resident dinosaurs up close! This activity is perfect for young paleontologists and their families who want to discover the wonder of the world's most incredible creatures. So grab your explorer's hat and get ready to dig into some fun!"
+  },
+  {
+    "id": 37,
+    "title": "Escape the Science Lab",
+    "date": "Saturday, August 12th, 2023",
+    "isFree": false,
+    "age": [8, 15],
+    "location": "New York Hall of Science",
+    "description": "It's a race against time in this thrilling Escape the Science Lab challenge at the New York Hall of Science! You and your team will have to use your science skills to solve puzzles, decipher codes, and unlock hidden clues as you try to escape the lab before time runs out. With challenges that test your knowledge of physics, chemistry, and biology, this activity is perfect for budding scientists who want to put their skills to the test in a fun and exciting way. Whether you're mixing chemicals, building machines, or cracking codes, there's something for everyone in this high-stakes science challenge. So gather your lab coats and get ready to escape to freedom!"
+  },
+  {
+    "id": 38,
+    "title": "Blast Off to Space",
+    "date": "Sunday, September 17th, 2023",
+    "isFree": true,
+    "age": [5, 12],
+    "location": "Intrepid Sea, Air & Space Museum",
+    "description": "3, 2, 1...blast off! Take a journey to the stars at the Intrepid Sea, Air & Space Museum. Explore the museum's space-themed exhibits and participate in hands-on activities that will take you on a thrilling adventure through the cosmos. From learning about the history of space travel to experiencing what it's like to be an astronaut, this activity is perfect for kids and families who want to explore the final frontier. So put on your space suit, buckle up."
+  },
+  {
+    "id": 39,
+    "title": "Marvel at the Met",
+    "date": "Saturday, November 4th, 2023",
+    "isFree": true,
+    "age": [5, 17],
+    "location": "The Metropolitan Museum of Art",
+    "description": "Step into a world of wonder and beauty at the Metropolitan Museum of Art! With a stunning collection of over 2 million works of art spanning 5,000 years of history, there's something for everyone to marvel at. From ancient artifacts to contemporary masterpieces, you'll be amazed by the diversity and richness of human creativity on display. With expert guides on hand to help you navigate the vast collections and provide fascinating insights into the art and history of the world's cultures, you'll gain a deeper appreciation for the beauty and complexity of the human experience. And with free admission for all, this activity is a great way for families to explore the museum's many galleries and exhibits without breaking the bank. So bring your curiosity, your sense of wonder, and your love of art, and get ready to marvel at the Met!"
+  },
+  {
+    "id": 40,
+    "title": "Sail the High Seas",
+    "date": "Saturday, July 8th, 2023",
+    "isFree": false,
+    "age": [8, 16],
+    "location": "South Street Seaport Museum",
+    "description": "Ahoy, mateys! Join us for a swashbuckling adventure on the high seas at the South Street Seaport Museum. We'll board a historic sailing vessel and set sail for an exciting day of nautical exploration. Learn the ropes from our experienced crew, and help hoist the sails as we navigate the waters of New York Harbor. Along the way, you'll discover the history of this iconic port and the brave sailors who sailed the world's oceans. But it's not all work and no play - there'll be plenty of fun and games on deck, including pirate-themed crafts and games. And when hunger strikes, we'll break out the snacks and refreshments to keep our crew fueled for adventure. So whether you're a seasoned sailor or a landlubber looking for a taste of the sea, come join us for an unforgettable voyage at the South Street Seaport Museum!"
+  },
+  {
+    "id": 41,
+    "title": "Bike through Central Park",
+    "date": "Saturday, June 24th, 2023",
+    "isFree": true,
+    "age": [8, 14],
+    "location": "Central Park",
+    "description": "Get ready for an adventure! Spend the day exploring Central Park on two wheels. You'll start at the southern entrance and pedal your way through lush greenery, historic landmarks, and stunning city views. Follow the winding paths that lead to hidden waterfalls and serene lakes. Stop at the famous Alice in Wonderland statue for a quick rest and take some photos. Your guide will share fun facts about the park's history and point out some of the iconic landmarks along the way. This activity is perfect for families with kids who love to bike and enjoy being outdoors. So grab your helmets, sunscreen, and water bottles, and join us for a day of fun and adventure in Central Park!"
+  },
+  {
+    "id": 42,
+    "title": "Art Attack at The Met",
+    "date": "Saturday, July 8th, 2023",
+    "isFree": true,
+    "age": [6, 12],
+    "location": "The Metropolitan Museum of Art",
+    "description": "Calling all young artists! Join us for a day of creativity and fun at The Met. You'll start by exploring the museum's vast collection of artwork, from ancient artifacts to contemporary masterpieces. Your guide will share some of the museum's most famous works of art and help you discover new artists and art styles. Then it's time to roll up your sleeves and create your own masterpieces in a hands-on art workshop. You'll learn new techniques and experiment with different materials to make unique and beautiful art pieces. This activity is perfect for families with kids who love art and want to learn more about the world of art. So come join us for a day of inspiration and creativity at The Met!"
   }
 ]

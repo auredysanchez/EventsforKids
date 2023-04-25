@@ -74,7 +74,7 @@ const EventDetail = () => {
           <div className="eventDetails__description">
             <h2>Details</h2>
             {filteredEventDetails.description}
-            {Lorem}
+            {/* {Lorem} */}
             {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
           provident, a ipsa esse et cumque, aperiam consequatur impedit ratione
           harum suscipit doloremque sunt ab! Ipsa, eaque aspernatur iste fuga

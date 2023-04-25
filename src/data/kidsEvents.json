@@ -6,7 +6,8 @@
     "date": "Saturday, March 14th, 2022",
     "isFree": true,
     "age": [1, 5],
-    "location": "Tyron Park"
+    "location": "Tyron Park",
+    "description": "Balloon Making in the Park is a fun-filled activity that brings together people of all ages to create amazing balloon sculptures and designs. Set against the backdrop of a beautiful park, this activity offers a unique opportunity to learn the art of balloon twisting from experienced instructors. With colorful balloons of all shapes and sizes at your disposal, you'll be able to let your imagination run wild and create stunning creations, from animals and flowers to hats and swords. Whether you're a beginner or an expert, this activity is sure to bring out your creative side and provide hours of entertainment and enjoyment."
   },
   {
     "id": 2,
@@ -14,7 +15,8 @@
     "date": "Monday, March 17th, 2022",
     "isFree": false,
     "age": [8, 14],
-    "location": "Moshulu Library"
+    "location": "Moshulu Library",
+    "description": "S.T.E.M Explorer is an interactive learning experience that introduces kids to the fascinating world of science, technology, engineering, and mathematics. Through hands-on experiments and exciting challenges, children will have the opportunity to explore and learn about a wide range of topics, from robotics and coding to chemistry and physics. Led by experienced educators, this activity is designed to stimulate curiosity and inspire creativity, while also helping kids develop essential problem-solving and critical-thinking skills. With a focus on fun and engagement, S.T.E.M Explorer Kids Activity is the perfect way to spark a "
   },
   {
     "id": 3,
@@ -22,7 +24,8 @@
     "date": "Saturday, April 2st, 2022",
     "isFree": true,
     "age": [6, 10],
-    "location": "Bronx playground Park"
+    "location": "Bronx playground Park",
+    "description": "Join us for the ultimate baseball experience at Baseball Camp for Kids! Whether you're a seasoned pro or just starting out, this action-packed camp will teach you everything you need to know about America's favorite pastime. From batting and pitching to fielding and base running, our expert coaches will help you develop your skills and hone your technique. You'll also get to play games, make new friends, and enjoy plenty of laughs along the way. So grab your glove, lace up your cleats, and get ready for a summer of fun and excitement at Baseball Camp for Kids!"
   },
   {
     "id": 4,
@@ -30,7 +33,8 @@
     "date": "Sunday, May 14th, 2022",
     "isFree": true,
     "age": [1, 14],
-    "location": "Slime Museum"
+    "location": "Slime Museum",
+    "description": "Get ready for a squishy, gooey adventure at Slime Time! This activity is all about making your own custom slime creations using a variety of colorful and slimy ingredients. With expert guidance from our slime-making gurus, you'll learn how to mix and match different textures and colors to create the perfect slime masterpiece. From glitter and beads to foam balls and confetti, the possibilities are endless! Once you've made your slime, you can take it home and show it off to all your friends. So roll up your sleeves, put on your protective gear, and get ready for a slimy good time at Slime Time!"
   },
   {
     "id": 5,
@@ -38,7 +42,8 @@
     "date": "Sunday, May 15th, 2022",
     "isFree": true,
     "age": [1, 14],
-    "location": "Central Park"
+    "location": "Central Park",
+    "description": "Are you ready for an adventure like no other? Join us for the ultimate scavenger hunt, where you'll explore the nooks and crannies of our amazing location to find hidden treasures and clues. With challenges and puzzles that are perfect for kids of all ages, this activity will keep you on your toes and test your problem-solving skills to the limit. You'll work in teams to solve riddles, decode messages, and track down elusive objects, all while having a blast with your friends and family. So grab your detective hat, put on your thinking cap, and get ready for an epic scavenger hunt that you'll never forget!"
   },
   {
     "id": 6,
@@ -47,7 +52,7 @@
     "isFree": true,
     "age": [13, 17],
     "location": "Bryant Park",
-    "description": "sdafjsdlkfjsdflsdjk"
+    "description": "Pokemon Hunt is an exciting adventure game that takes you on a journey to capture rare and powerful Pokemon creatures. Armed with your trusty smartphone and a keen eye for detail, you'll scour the streets and parks for these elusive creatures, using augmented reality technology to track them down. With each capture, you'll earn points and move up the leaderboard, competing against other players for the title of ultimate Pokemon Hunter. So gear up, get ready, and embark on an unforgettable journey to catch 'em all!"
   },
   {
     "id": 7,
@@ -55,7 +60,8 @@
     "date": "Monday, April 11th, 2022",
     "isFree": true,
     "age": [0, 17],
-    "location": "Brooklyn Botanical Garden"
+    "location": "Brooklyn Botanical Garden",
+    "description": "Step into a world of beauty and wonder at Cherry Blossom at the Botanical Garden! This activity is a celebration of the stunning pink and white flowers that grace the trees every spring, and the magnificent botanical garden that houses them. Stroll through the gardens, taking in the sights and sounds of the blooming trees, while also learning about the history and significance of cherry blossoms in Japanese culture. With plenty of photo opportunities and special events throughout the day, this activity is perfect for anyone who loves nature, culture, and the outdoors. So grab your camera, put on your walking shoes, and get ready to be swept away by the enchanting world of Cherry Blossom at the Botanical Garden!"
   },
   {
     "id": 8,
@@ -63,7 +69,8 @@
     "date": "Saturday, May 14th, 2022",
     "isFree": true,
     "age": [0, 17],
-    "location": "Astoria Park"
+    "location": "Astoria Park",
+    "description": "Gear up and get ready for a thrilling family adventure at Family Laser Tag! This activity is a high-energy game that takes place in a specially designed arena, complete with obstacles, walls, and plenty of hiding spots. Equipped with state-of-the-art laser guns, you and your family will battle it out to see who can tag the most opponents and come out victorious. With a variety of game modes to choose from, including capture the flag and last team standing, this activity is sure to keep you on your toes and provide hours of non-stop fun. So rally your troops, strategize your moves, and get ready for an epic battle at Family Laser Tag!"
   },
   {
     "id": 9,
@@ -71,7 +78,8 @@
     "date": "Wednesday, March 16th, 2022",
     "isFree": false,
     "age": [1, 11],
-    "location": "Disney Store"
+    "location": "Disney Store",
+    "description": "Unleash your inner artist and get ready to create some magical masterpieces at Disney Paint and Snack! This activity is a fun and interactive way to explore your creativity and let your imagination run wild. You'll be provided with all the materials you need to paint your favorite Disney characters, from Mickey and Minnie to Elsa and Olaf. And the best part? You'll also get to enjoy some delicious snacks and refreshments while you paint! With fun music, friendly instructors, and a supportive environment, this activity is perfect for kids and adults alike. So grab your paintbrush, put on your apron, and get ready to create some Disney-inspired art at Disney Paint and Snack!"
   },
   {
     "id": 10,
@@ -79,7 +87,8 @@
     "date": "Saturday, June 25th, 2022",
     "isFree": true,
     "age": [11, 14],
-    "location": "Crotona Park"
+    "location": "Crotona Park",
+    "description": "Get ready for a day of sunshine, fun, and delicious food at Family Picnic! This activity is a perfect way to spend time with your loved ones in the great outdoors. You'll find the perfect spot to lay down your blanket and enjoy the scenic views while snacking on your favorite treats. With a variety of games and activities to choose from, you can make the most of your day in the park. Whether you want to play a game of catch, fly a kite, or just relax and soak up the sunshine, Family Picnic is the perfect activity for you. So pack up your picnic basket, grab your family and friends, and get ready for a day of fun and relaxation at Family Picnic!"
   },
   {
     "id": 11,
@@ -87,7 +96,8 @@
     "date": "Friday, July 8th, 2022",
     "isFree": true,
     "age": [1, 14],
-    "location": "American Museum Of Natural Hisotry"
+    "location": "American Museum Of Natural Hisotry",
+    "description": "Step into a world of wonder and imagination at Night at the Museum! This activity is a thrilling adventure that takes place after dark, where the exhibits in the museum come to life. You'll be guided through the museum by a friendly tour guide, who will show you the hidden secrets and stories behind each exhibit. You'll also have the chance to interact with the exhibits, solve puzzles, and participate in fun games and activities. With plenty of surprises and thrills around every corner, Night at the Museum is an activity that's perfect for anyone who loves adventure, history, and culture. So grab your flashlight, put on your explorer hat, and get ready for a night you'll never forget at Night at the Museum!"
   },
   {
     "id": 12,
@@ -95,7 +105,8 @@
     "date": "Wednesday, October 5th, 2022",
     "isFree": true,
     "age": [1, 17],
-    "location": "Central Park Zoo"
+    "location": "Central Park Zoo",
+    "description": "Get ready for a game of hide-and-seek like you've never played before at Peek-a-Boo! This activity is a fun and interactive way to explore your surroundings and challenge your friends and family. The rules are simple: one person covers their eyes while the others hide. The seeker then counts to ten before trying to find the hiders. But there's a twist! Along the way, the seeker will need to complete fun challenges and solve puzzles to uncover clues about where the hiders are hiding. With plenty of surprises and laughs along the way, Peek-a-Boo is an activity that's perfect for anyone who loves games, puzzles, and adventure. So gather your friends and family, put on your thinking caps, and get ready for a game of Peek-a-Boo like you've never played before!"
   },
   {
     "id": 13,
@@ -103,7 +114,8 @@
     "date": "Sunday, April 23th, 2022",
     "isFree": true,
     "age": [11, 14],
-    "location": "Rockefeller Center"
+    "location": "Rockefeller Center",
+    "description": "Get ready to boogie-woogie and tap your feet on the keys at Dance on The Piano! This activity is a unique and fun way to explore your musical side and show off your dance moves. You'll step onto a giant floor piano that's similar to the one in the movie 'Big' and create your own melodies with every step. Whether you want to play your favorite song or create a new tune, Dance on The Piano is a fun and interactive way to express yourself through music and dance. With the guidance of a friendly instructor, you'll learn new steps and moves to the rhythm of the keys. So grab your dancing shoes, put on your favorite tunes, and get ready to make some beautiful music with your feet at Dance on The Piano!"
   },
   {
     "id": 14,
@@ -111,7 +123,8 @@
     "date": "Tuesday, August 16th, 2022",
     "isFree": true,
     "age": [3, 14],
-    "location": "Queens County Farm Museum"
+    "location": "Queens County Farm Museum",
+    "description": "get your hands dirty and cultivate your green thumb at Be an Urban Farmer! This activity is a unique and fun way to learn about sustainable living and how to grow your own food. You'll be guided by a friendly instructor who will teach you everything you need to know about planting, growing, and harvesting fruits and vegetables in an urban environment. Whether you want to grow a small herb garden or a full-fledged vegetable patch, Be an Urban Farmer is the perfect activity for anyone who loves nature and wants to live sustainably. With plenty of tips and tricks to take home, you'll be able to put your newfound knowledge into practice and start growing your own produce in no time. So roll up your sleeves, grab your gardening gloves, and get ready to be an Urban Farmer!"
   },
   {
     "id": 15,
@@ -119,7 +132,8 @@
     "date": "Tuesday, June 14th, 2022",
     "isFree": true,
     "age": [1, 11],
-    "location": "Museum of Mathematics"
+    "location": "Museum of Mathematics",
+    "description": "Dive into the exciting world of mathematics at Learn at MoMath! This activity is a fun and interactive way to explore the wonders of math and science with your friends and family. You'll be guided by friendly educators who will show you the fascinating connections between math and everyday life. Whether you want to explore mind-bending puzzles, build a giant fractal structure, or experiment with hands-on exhibits, Learn at MoMath has something for everyone. With plenty of engaging activities and challenges to take on, you'll leave feeling like a math wizard. So put on your thinking cap, bring your curiosity, and get ready to Learn at MoMath!"
   },
   {
     "id": 16,
@@ -127,7 +141,8 @@
     "date": "Wednesday, June 22th, 2022",
     "isFree": true,
     "age": [1, 11],
-    "location": "Central Park's Belvedere Castle"
+    "location": "Central Park's Belvedere Castle",
+    "description": "Ascend to new heights and explore the wonders of a majestic castle at Climb the Castle Steps! This activity is a fun and interactive way to challenge your physical abilities and imagination. You'll climb a giant castle staircase, complete with turrets, towers, and winding staircases, and discover the secrets of the castle's storied past. With each step, you'll uncover new surprises and challenges, from solving puzzles to overcoming obstacles. As you climb higher and higher, you'll gain a new perspective on the world around you and feel like a true adventurer. With friendly guides to help you along the way, Climb the Castle Steps is an activity that's perfect for anyone who loves a good challenge and has a sense of wonder. So strap on your climbing shoes, grab your backpack, and get ready to climb the castle steps!"
   },
   {
     "id": 17,
@@ -135,7 +150,8 @@
     "date": "Sunday, July 11th, 2022",
     "isFree": true,
     "age": [1, 14],
-    "location": "Brooklyn Bridge"
+    "location": "Brooklyn Bridge",
+    "description": "Indulge your sweet tooth and take in some stunning views at Sweet View, Sweet Treat! This activity is a delicious and delightful way to explore your city and sample some of the best sweet treats it has to offer. You'll start by ascending to a rooftop or high-rise location with sweeping views of the city skyline. From there, you'll be treated to a selection of mouth-watering desserts, from cupcakes and cookies to ice cream and chocolates. With each bite, you'll savor the flavors and textures of these delectable treats while taking in the beauty of your surroundings. With friendly guides to help you navigate your way and learn more about the history of the city, Sweet View, Sweet Treat is an activity that's perfect for anyone with a sweet tooth and an appreciation for stunning views. So bring your appetite, your camera, and your sense of adventure, and get ready for a sweet adventure at Sweet View, Sweet Treat!"
   },
   {
     "id": 18,
@@ -143,7 +159,8 @@
     "date": "Thursday, July 21th, 2022",
     "isFree": false,
     "age": [1, 17],
-    "location": "Roosevelt Island Tram"
+    "location": "Roosevelt Island Tram",
+    "description": "Get ready to reach new heights and experience the thrill of flight at Sky High! This activity is an exciting and imaginative way for kids of all ages to explore the wonders of the sky and the thrill of flying. You'll start by donning your very own aviator hat and goggles, and then you'll take to the skies aboard a magical flying machine. As you soar through the clouds, you'll explore a world of wonder and imagination, encountering birds, clouds, and other flying creatures along the way. With each twist and turn, you'll feel the wind rushing through your hair and the thrill of adventure coursing through your veins. With friendly guides to help you navigate your journey and learn more about the science of flight, Sky High is an activity that's perfect for anyone who loves a good adventure and has a sense of wonder. So grab your wings, your imagination, and your sense of adventure, and get ready to take flight at Sky High!"
   },
   {
     "id": 19,
@@ -151,7 +168,8 @@
     "date": "Monday, May 23th, 2022",
     "isFree": true,
     "age": [5, 17],
-    "location": "Brooklyn Bridge Park"
+    "location": "Brooklyn Bridge Park",
+    "description": " Climb to new heights and challenge your physical abilities at Climb the Walls! This activity is an exciting and engaging way for kids and families to explore their adventurous side. You'll start by strapping on your safety gear and ascending to a giant indoor climbing wall, complete with colorful handholds, tricky routes, and challenging obstacles. With friendly guides to help you along the way, you'll learn the basics of climbing and develop your skills as you conquer each new challenge. With each ascent, you'll build your confidence and feel the thrill of victory as you reach new heights. With different routes to suit all levels of climbers, Climb the Walls is an activity that's perfect for anyone looking for a fun and challenging adventure. So bring your energy, your sense of adventure, and your willingness to push your limits, and get ready to climb the walls!"
   },
   {
     "id": 20,
@@ -159,7 +177,8 @@
     "date": "Wednesday, August 17th, 2022",
     "isFree": false,
     "age": [1, 13],
-    "location": "Children Museum of Manhattan"
+    "location": "Children Museum of Manhattan",
+    "description": "Unleash your creativity and explore the world of art, science, and technology at CMOM! This activity is a fun and educational way for kids and families to dive into hands-on exhibits and interactive experiences. You'll start by exploring the museum's many galleries and exhibits, each designed to inspire curiosity and spark the imagination. From painting and sculpture to robotics and virtual reality, there's something for everyone at CMOM. With friendly educators on hand to guide you and answer your questions, you'll learn new skills, experiment with different materials, and discover the wonder of the world around you. Whether you're building a robot, creating a masterpiece, or playing with light and sound, CMOM is an activity that's sure to spark your curiosity and ignite your passion for learning. So bring your energy, your enthusiasm, and your willingness to go crazy with creativity, and get ready to have a blast at CMOM!"
   },
   {
     "id": 21,
@@ -167,7 +186,8 @@
     "date": "Saturday, April 30th, 2022",
     "isFree": true,
     "age": [14, 18],
-    "location": "Brooklyn Heights"
+    "location": "Brooklyn Heights",
+    "description": "Grab your hard hats and tool belts and join the ultimate building team - Father and Son Builders! This activity is a fun and creative way for dads and sons to work together and create something amazing. You'll start by selecting your project - whether it's building a treehouse, constructing a birdhouse, or even designing a robot from scratch. With a wide variety of tools and materials at your disposal, you'll work side by side to measure, cut, and assemble your project, learning valuable building skills along the way. With friendly guides to help you navigate each step of the process, you'll gain the confidence and know-how to create something truly incredible. And when you're finished, you'll have a one-of-a-kind masterpiece to show off to friends and family. So bring your creativity, your teamwork, and your sense of adventure, and get ready to build something amazing with Father and Son Builders!"
   },
   {
     "id": 22,
@@ -175,6 +195,7 @@
     "date": "Sunday, May 22th, 2022",
     "isFree": true,
     "age": [3, 10],
-    "location": "Harlem"
+    "location": "Harlem",
+    "description": "Don your fanciest attire and join Daddy for a delightful Tea Party! This activity is a fun and elegant way for dads and daughters to spend quality time together while enjoying some delicious treats. You'll start by selecting your finest tea set and arranging it with all the necessary accouterments like sugar, cream, and fancy little sandwiches. With a variety of teas to choose from, you'll get to experiment and find your perfect cup. And of course, no tea party is complete without some sweet treats! You'll be able to decorate your own cupcakes or cookies and indulge in some scrumptious desserts. With soft music playing in the background, you'll be able to chat with your dad and enjoy some quality bonding time. So dress up, bring your imagination, and get ready to have a wonderful time at the Tea Party with Daddy!"
   }
 ]
